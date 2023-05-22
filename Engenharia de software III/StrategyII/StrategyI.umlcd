@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_uzBj4PhWEe24gK1e9hy51w">
+  <modelElement href="StrategyI.uml#_ux47cPhWEe24gK1e9hy51w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_u9a2APhWEe24gK1e9hy51w" sourceAnchor="70.0,0.0" targetAnchor="57.0,85.0" dashed="true" superClass="_u9bdEPhWEe24gK1e9hy51w" subClass="_u9aO8PhWEe24gK1e9hy51w">
+    <modelElement href="StrategyI.uml#_u8awcPhWEe24gK1e9hy51w"/>
+    <bendpoints xmi:id="_y75dwvhWEe24gK1e9hy51w" sourceY="-32" targetX="-90" targetY="46"/>
+    <bendpoints xmi:id="_y75dw_hWEe24gK1e9hy51w" sourceX="90" sourceY="-32" targetY="46"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_u9a2AfhWEe24gK1e9hy51w" sourceAnchor="70.0,0.0" targetAnchor="57.0,85.0" dashed="true" superClass="_u9bdEPhWEe24gK1e9hy51w" subClass="_u9YZwPhWEe24gK1e9hy51w">
+    <modelElement href="StrategyI.uml#_u8bXgPhWEe24gK1e9hy51w"/>
+    <bendpoints xmi:id="_y75dwPhWEe24gK1e9hy51w" sourceY="-30" targetX="83" targetY="46"/>
+    <bendpoints xmi:id="_y75dwfhWEe24gK1e9hy51w" sourceX="-83" sourceY="-30" targetY="46"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_u9crMPhWEe24gK1e9hy51w" sourceAnchor="146.0,0.0" targetAnchor="0.0,43.0" target="_u9bdEPhWEe24gK1e9hy51w" source="_u9d5UPhWEe24gK1e9hy51w">
+    <modelElement href="StrategyI.uml#_u8ea0_hWEe24gK1e9hy51w"/>
+    <bendpoints xmi:id="_y75dxPhWEe24gK1e9hy51w" sourceY="-73" targetX="-317"/>
+    <stereotypes xmi:id="_u9crNPhWEe24gK1e9hy51w" name="Reference">
+      <modelElement href="StrategyI.uml#_u8ea1fhWEe24gK1e9hy51w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_u9crMfhWEe24gK1e9hy51w" text="">
+      <visualProperties xmi:id="_veKLlvhWEe24gK1e9hy51w" position="138.0,1.4999999999999858"/>
+    </nameVisual>
+    <sourceRole xmi:id="_u9crMvhWEe24gK1e9hy51w" aggregationKind="NONE" name="">
+      <modelElement href="StrategyI.uml#_u8ea1PhWEe24gK1e9hy51w"/>
+      <visualProperties xmi:id="_veKLlfhWEe24gK1e9hy51w" position="41.0,-72.5"/>
+      <visibility xmi:id="_u9dSQfhWEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_u9dSQPhWEe24gK1e9hy51w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_u9crM_hWEe24gK1e9hy51w" aggregationKind="NONE" name="ingredientes" navigable="true">
+      <modelElement href="StrategyI.uml#_u8dMtPhWEe24gK1e9hy51w"/>
+      <visualProperties xmi:id="_veKyoPhWEe24gK1e9hy51w" position="-153.25,-57.500000000000014"/>
+      <visibility xmi:id="_u9dSQ_hWEe24gK1e9hy51w" label="-"/>
+      <cardinality xmi:id="_u9dSQvhWEe24gK1e9hy51w" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_u9YZwPhWEe24gK1e9hy51w" name="Cenoura" generalizations="_u9a2AfhWEe24gK1e9hy51w">
+    <modelElement href="StrategyI.uml#_u8S0ovhWEe24gK1e9hy51w"/>
+    <visualProperties xmi:id="_u9YZwfhWEe24gK1e9hy51w" position="441.0,96.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_u9YZwvhWEe24gK1e9hy51w" label="+"/>
+    <operations xmi:id="_u9YZw_hWEe24gK1e9hy51w" name="cortar">
+      <modelElement href="StrategyI.uml#_u8S0o_hWEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_u9YZxPhWEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="StrategyI.uml#_u8S0pPhWEe24gK1e9hy51w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_u9YZxfhWEe24gK1e9hy51w" name="Annotations">
+        <modelElement href="StrategyI.uml#_u8TbsPhWEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_u9YZxvhWEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_u9YZx_hWEe24gK1e9hy51w" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_u9aO8PhWEe24gK1e9hy51w" name="Cebola" generalizations="_u9a2APhWEe24gK1e9hy51w">
+    <modelElement href="StrategyI.uml#_u8RmgPhWEe24gK1e9hy51w"/>
+    <visualProperties xmi:id="_u9aO8fhWEe24gK1e9hy51w" position="268.0,98.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_u9aO8vhWEe24gK1e9hy51w" label="+"/>
+    <operations xmi:id="_u9aO8_hWEe24gK1e9hy51w" name="cortar">
+      <modelElement href="StrategyI.uml#_u8SNmfhWEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_u9aO9PhWEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="StrategyI.uml#_u8SNmvhWEe24gK1e9hy51w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_u9aO9fhWEe24gK1e9hy51w" name="Annotations">
+        <modelElement href="StrategyI.uml#_u8S0oPhWEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_u9aO9vhWEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_u9aO9_hWEe24gK1e9hy51w" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_u9bdEPhWEe24gK1e9hy51w" name="Cortar" associationsIn="_u9crMPhWEe24gK1e9hy51w" subclassedBy="_u9a2APhWEe24gK1e9hy51w _u9a2AfhWEe24gK1e9hy51w">
+    <modelElement href="StrategyI.uml#_u8TbsvhWEe24gK1e9hy51w"/>
+    <visualProperties xmi:id="_u9bdEfhWEe24gK1e9hy51w" position="371.0,-65.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_u9bdEvhWEe24gK1e9hy51w" label="+"/>
+    <operations xmi:id="_u9bdE_hWEe24gK1e9hy51w" name="cortar">
+      <modelElement href="StrategyI.uml#_u8Tbs_hWEe24gK1e9hy51w"/>
+      <visibility xmi:id="_u9bdFPhWEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_u9bdFfhWEe24gK1e9hy51w" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_u9d5UPhWEe24gK1e9hy51w" name="Salada" associationsOut="_u9crMPhWEe24gK1e9hy51w">
+    <modelElement href="StrategyI.uml#_u8TbtPhWEe24gK1e9hy51w"/>
+    <visualProperties xmi:id="_u9d5UfhWEe24gK1e9hy51w" position="-92.0,51.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_u9d5UvhWEe24gK1e9hy51w" label="+"/>
+    <attributes xmi:id="_u9d5U_hWEe24gK1e9hy51w" name="ingredientes">
+      <modelElement href="StrategyI.uml#_u8dMtPhWEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_u9d5VPhWEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="StrategyI.uml#_u8dzwfhWEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_u9d5VfhWEe24gK1e9hy51w" label="-"/>
+      <cardinality xmi:id="_u9d5VvhWEe24gK1e9hy51w" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_u9d5V_hWEe24gK1e9hy51w" name="Cortar">
+        <modelElement href="StrategyI.uml#_u8TbsvhWEe24gK1e9hy51w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_u9d5WPhWEe24gK1e9hy51w" name="preparar">
+      <modelElement href="StrategyI.uml#_u8UCwPhWEe24gK1e9hy51w"/>
+      <visibility xmi:id="_u9d5WfhWEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_u9d5WvhWEe24gK1e9hy51w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_u9d5W_hWEe24gK1e9hy51w" name="main" staticOperation="true">
+      <modelElement href="StrategyI.uml#_u8UCwfhWEe24gK1e9hy51w"/>
+      <visibility xmi:id="_u9d5XPhWEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_u9d5XfhWEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_u9d5XvhWEe24gK1e9hy51w" name="args">
+        <modelElement href="StrategyI.uml#_u8UCwvhWEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_u9d5X_hWEe24gK1e9hy51w" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_u9d5YPhWEe24gK1e9hy51w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_u9d5YfhWEe24gK1e9hy51w" name="Salada">
+      <modelElement href="StrategyI.uml#_u8cloPhWEe24gK1e9hy51w"/>
+      <keywords xmi:id="_u9d5YvhWEe24gK1e9hy51w" keyword="create"/>
+      <visibility xmi:id="_u9d5Y_hWEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_u9d5ZPhWEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_u9d5ZfhWEe24gK1e9hy51w">
+        <modelElement href="StrategyI.uml#_u8dMsvhWEe24gK1e9hy51w"/>
+        <type xmi:id="_u9d5ZvhWEe24gK1e9hy51w" name="Salada">
+          <modelElement href="StrategyI.uml#_u8TbtPhWEe24gK1e9hy51w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_u9d5Z_hWEe24gK1e9hy51w" name="ingredientes">
+        <modelElement href="StrategyI.uml#_u8clofhWEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_u9d5aPhWEe24gK1e9hy51w" label="1" max="1" min="1"/>
+        <type xmi:id="_u9d5afhWEe24gK1e9hy51w" name="List">
+          <modelElement href="StrategyI.uml#_u8bXgfhWEe24gK1e9hy51w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

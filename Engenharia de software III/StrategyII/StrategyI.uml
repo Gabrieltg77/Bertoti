@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ux47cPhWEe24gK1e9hy51w" name="StrategyI">
+    <eAnnotations xmi:id="_u2lOMPhWEe24gK1e9hy51w" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_u2l1QPhWEe24gK1e9hy51w" source="codegen">
+        <details xmi:id="_u2l1QfhWEe24gK1e9hy51w" key="codegenDirectory" value="/StrategyI/src"/>
+        <details xmi:id="_u9IiIPhWEe24gK1e9hy51w" key="AssociatedSourceCode" value="/StrategyI/src/Cebola.java;3881018823/1;/StrategyI/src/Cenoura.java;2404365481/1;/StrategyI/src/Cortar.java;1447502742/1;/StrategyI/src/Salada.java;1856745212/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_u8SNkPhWEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_u8SNkfhWEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_u8SNkvhWEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_u8SNk_hWEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_u8SNlPhWEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_u8SNlfhWEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_u8SNlvhWEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_u8SNl_hWEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_u8SNmPhWEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_u8Q_cPhWEe24gK1e9hy51w" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_u8Q_cfhWEe24gK1e9hy51w" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_u8bXgfhWEe24gK1e9hy51w" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_u8b-kfhWEe24gK1e9hy51w" name="ArrayList"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_u8RmgPhWEe24gK1e9hy51w" name="Cebola">
+      <interfaceRealization xmi:id="_u8awcPhWEe24gK1e9hy51w" client="_u8RmgPhWEe24gK1e9hy51w" supplier="_u8TbsvhWEe24gK1e9hy51w" contract="_u8TbsvhWEe24gK1e9hy51w"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u8dzwvhWEe24gK1e9hy51w" name="cortar" specification="_u8SNmfhWEe24gK1e9hy51w">
+        <language>java</language>
+        <body>System.out.println(&quot;cortando a cebola&quot;);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_u8SNmfhWEe24gK1e9hy51w" name="cortar" method="_u8dzwvhWEe24gK1e9hy51w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_u8S0ovhWEe24gK1e9hy51w" name="Cenoura">
+      <interfaceRealization xmi:id="_u8bXgPhWEe24gK1e9hy51w" client="_u8S0ovhWEe24gK1e9hy51w" supplier="_u8TbsvhWEe24gK1e9hy51w" contract="_u8TbsvhWEe24gK1e9hy51w"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u8dzw_hWEe24gK1e9hy51w" name="cortar" specification="_u8S0o_hWEe24gK1e9hy51w">
+        <language>java</language>
+        <body>System.out.println(&quot;cortando a cenoura&quot;);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_u8S0o_hWEe24gK1e9hy51w" name="cortar" method="_u8dzw_hWEe24gK1e9hy51w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_u8TbsvhWEe24gK1e9hy51w" name="Cortar">
+      <ownedOperation xmi:id="_u8Tbs_hWEe24gK1e9hy51w" name="cortar"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_u8TbtPhWEe24gK1e9hy51w" name="Salada">
+      <ownedAttribute xmi:id="_u8dMtPhWEe24gK1e9hy51w" name="ingredientes" visibility="private" type="_u8TbsvhWEe24gK1e9hy51w" isOrdered="true" association="_u8ea0_hWEe24gK1e9hy51w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u8dzwPhWEe24gK1e9hy51w" value="*"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u8dzxPhWEe24gK1e9hy51w" name="Salada" specification="_u8cloPhWEe24gK1e9hy51w">
+        <ownedParameter xmi:id="_u8dzxfhWEe24gK1e9hy51w" name="ingredientes" type="_u8bXgfhWEe24gK1e9hy51w"/>
+        <ownedParameter xmi:id="_u8dzxvhWEe24gK1e9hy51w" type="_u8TbtPhWEe24gK1e9hy51w" direction="return"/>
+        <language>java</language>
+        <body>this.ingredientes = ingredientes;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u8dzx_hWEe24gK1e9hy51w" name="preparar" specification="_u8UCwPhWEe24gK1e9hy51w">
+        <language>java</language>
+        <body>for (Cortar ingrediente : ingredientes) {&#xD;
+         ingrediente.cortar();&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_u8ea0PhWEe24gK1e9hy51w" name="main" specification="_u8UCwfhWEe24gK1e9hy51w">
+        <ownedParameter xmi:id="_u8ea0fhWEe24gK1e9hy51w" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u8ea0vhWEe24gK1e9hy51w" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>List&lt;Cortar> ingredientes = new ArrayList&lt;>();&#xD;
+     ingredientes.add(new Cenoura());&#xD;
+     ingredientes.add(new Cebola());&#xD;
+&#xD;
+     Salada salada = new Salada(ingredientes);&#xD;
+     salada.preparar();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_u8UCwPhWEe24gK1e9hy51w" name="preparar" method="_u8dzx_hWEe24gK1e9hy51w"/>
+      <ownedOperation xmi:id="_u8UCwfhWEe24gK1e9hy51w" name="main" isStatic="true" method="_u8ea0PhWEe24gK1e9hy51w">
+        <ownedParameter xmi:id="_u8UCwvhWEe24gK1e9hy51w" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u8UCw_hWEe24gK1e9hy51w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_u8cloPhWEe24gK1e9hy51w" name="Salada" method="_u8dzxPhWEe24gK1e9hy51w">
+        <eAnnotations xmi:id="_u8dMsPhWEe24gK1e9hy51w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_u8dMsfhWEe24gK1e9hy51w" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_u8clofhWEe24gK1e9hy51w" name="ingredientes" type="_u8bXgfhWEe24gK1e9hy51w"/>
+        <ownedParameter xmi:id="_u8dMsvhWEe24gK1e9hy51w" type="_u8TbtPhWEe24gK1e9hy51w" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_u8ea0_hWEe24gK1e9hy51w" name="" memberEnd="_u8ea1PhWEe24gK1e9hy51w _u8dMtPhWEe24gK1e9hy51w">
+      <ownedEnd xmi:id="_u8ea1PhWEe24gK1e9hy51w" name="" type="_u8TbtPhWEe24gK1e9hy51w" association="_u8ea0_hWEe24gK1e9hy51w"/>
+    </packagedElement>
+    <profileApplication xmi:id="_u3NgUPhWEe24gK1e9hy51w">
+      <eAnnotations xmi:id="_u3NgUfhWEe24gK1e9hy51w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_u3OHYPhWEe24gK1e9hy51w" base_Package="_ux47cPhWEe24gK1e9hy51w">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u8SNmvhWEe24gK1e9hy51w" base_Element="_u8SNmfhWEe24gK1e9hy51w"/>
+  <UMLLabProfile:Annotations xmi:id="_u8S0oPhWEe24gK1e9hy51w" base_Element="_u8SNmfhWEe24gK1e9hy51w">
+    <annotations xmi:id="_u8S0ofhWEe24gK1e9hy51w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u8S0pPhWEe24gK1e9hy51w" base_Element="_u8S0o_hWEe24gK1e9hy51w"/>
+  <UMLLabProfile:Annotations xmi:id="_u8TbsPhWEe24gK1e9hy51w" base_Element="_u8S0o_hWEe24gK1e9hy51w">
+    <annotations xmi:id="_u8TbsfhWEe24gK1e9hy51w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_u8b-kPhWEe24gK1e9hy51w" base_Element="_u8bXgfhWEe24gK1e9hy51w"/>
+  <UMLLabProfile:Reference xmi:id="_u8b-kvhWEe24gK1e9hy51w" base_Element="_u8b-kfhWEe24gK1e9hy51w"/>
+  <UMLLabProfile:Generics xmi:id="_u8dMs_hWEe24gK1e9hy51w" genericsValue="Cortar" base_Element="_u8clofhWEe24gK1e9hy51w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_u8dzwfhWEe24gK1e9hy51w" base_Element="_u8dMtPhWEe24gK1e9hy51w"/>
+  <UMLLabProfile:Reference xmi:id="_u8ea1fhWEe24gK1e9hy51w" base_Element="_u8ea0_hWEe24gK1e9hy51w"/>
+</xmi:XMI>
