@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_z1IdwPhUEe24gK1e9hy51w" name="Composite">
+    <eAnnotations xmi:id="_z6fe4PhUEe24gK1e9hy51w" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_z6fe4fhUEe24gK1e9hy51w" source="codegen">
+        <details xmi:id="_z6fe4vhUEe24gK1e9hy51w" key="codegenDirectory" value="/Composite/src"/>
+        <details xmi:id="_0BGdMPhUEe24gK1e9hy51w" key="AssociatedSourceCode" value="/Composite/src/Main.java;2673793330/1;/Composite/src/Tarefa.java;1759869945/1;/Composite/src/TarefaComposta.java;1764595006/1;/Composite/src/TarefaSimples.java;2302346434/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_z_mBUfhUEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_z_moYPhUEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_z_moYfhUEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_z_moYvhUEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_z_moY_hUEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_z_moZPhUEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_z_moZfhUEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_z_moZvhUEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_z_moZ_hUEe24gK1e9hy51w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_z_i-APhUEe24gK1e9hy51w" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_z_i-AfhUEe24gK1e9hy51w" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_z_7YgPhUEe24gK1e9hy51w" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_z_7YgvhUEe24gK1e9hy51w" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_z_mBUPhUEe24gK1e9hy51w" name="Main">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0AARAPhUEe24gK1e9hy51w" name="main" specification="_z_moaPhUEe24gK1e9hy51w">
+        <ownedParameter xmi:id="_0AARAfhUEe24gK1e9hy51w" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0AARAvhUEe24gK1e9hy51w" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>TarefaComposta tarefaComposta1 = new TarefaComposta(&quot;Tarefa 1&quot;, &quot;Tarefa composta 1&quot;);
+     Tarefa tarefaSimples1 = new TarefaSimples(&quot;Subtarefa 1&quot;, &quot;Tarefa simples 1&quot;);
+     Tarefa tarefaSimples2 = new TarefaSimples(&quot;Subtarefa 2&quot;, &quot;Tarefa simples 2&quot;);
+
+     tarefaComposta1.adicionarTarefa(tarefaSimples1);
+     tarefaComposta1.adicionarTarefa(tarefaSimples2);
+
+     tarefaComposta1.executar();
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_z_moaPhUEe24gK1e9hy51w" name="main" isStatic="true" method="_0AARAPhUEe24gK1e9hy51w">
+        <ownedParameter xmi:id="_z_moafhUEe24gK1e9hy51w" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z_nPcPhUEe24gK1e9hy51w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_z_nPcfhUEe24gK1e9hy51w" name="Tarefa">
+      <ownedOperation xmi:id="_z_nPcvhUEe24gK1e9hy51w" name="executar"/>
+      <ownedOperation xmi:id="_z_6xcPhUEe24gK1e9hy51w" name="adicionarTarefa">
+        <ownedParameter xmi:id="_z_6xcfhUEe24gK1e9hy51w" name="tarefa" type="_z_nPcfhUEe24gK1e9hy51w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_z_6xcvhUEe24gK1e9hy51w" name="removerTarefa">
+        <ownedParameter xmi:id="_z_6xc_hUEe24gK1e9hy51w" name="tarefa" type="_z_nPcfhUEe24gK1e9hy51w"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_z_n2gPhUEe24gK1e9hy51w" name="TarefaComposta">
+      <ownedAttribute xmi:id="_z_-b0PhUEe24gK1e9hy51w" name="nome" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_z__C4PhUEe24gK1e9hy51w" name="descricao" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_z__C4vhUEe24gK1e9hy51w" name="tarefas" visibility="private" type="_z_nPcfhUEe24gK1e9hy51w" isOrdered="true" association="_0ACGMPhUEe24gK1e9hy51w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z__C4_hUEe24gK1e9hy51w" value="*"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_z_7_kfhUEe24gK1e9hy51w" client="_z_n2gPhUEe24gK1e9hy51w" supplier="_z_nPcfhUEe24gK1e9hy51w" contract="_z_nPcfhUEe24gK1e9hy51w"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0AARA_hUEe24gK1e9hy51w" name="TarefaComposta" specification="_z_odkPhUEe24gK1e9hy51w">
+        <ownedParameter xmi:id="_0AARBPhUEe24gK1e9hy51w" name="nome">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_0AARBfhUEe24gK1e9hy51w" name="descricao">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_0AARBvhUEe24gK1e9hy51w" type="_z_n2gPhUEe24gK1e9hy51w" direction="return"/>
+        <language>java</language>
+        <body>this.nome = nome;&#xD;
+     this.descricao = descricao;&#xD;
+     this.tarefas = new ArrayList&lt;>();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0AARB_hUEe24gK1e9hy51w" name="executar" specification="_z_odlvhUEe24gK1e9hy51w">
+        <language>java</language>
+        <body>System.out.println(&quot;Executando a tarefa: &quot; + nome);&#xD;
+     for (Tarefa tarefa : tarefas) {&#xD;
+         tarefa.executar();&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0AARCPhUEe24gK1e9hy51w" name="adicionarTarefa" specification="_z_7_kvhUEe24gK1e9hy51w">
+        <ownedParameter xmi:id="_0AARCfhUEe24gK1e9hy51w" name="tarefa" type="_z_nPcfhUEe24gK1e9hy51w"/>
+        <language>java</language>
+        <body>tarefas.add(tarefa);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0AARCvhUEe24gK1e9hy51w" name="removerTarefa" specification="_z_8mo_hUEe24gK1e9hy51w">
+        <ownedParameter xmi:id="_0AARC_hUEe24gK1e9hy51w" name="tarefa" type="_z_nPcfhUEe24gK1e9hy51w"/>
+        <language>java</language>
+        <body>tarefas.remove(tarefa);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_z_odkPhUEe24gK1e9hy51w" name="TarefaComposta" method="_0AARA_hUEe24gK1e9hy51w">
+        <eAnnotations xmi:id="_z_odk_hUEe24gK1e9hy51w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_z_odlPhUEe24gK1e9hy51w" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_z_odkfhUEe24gK1e9hy51w" name="nome">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_z_odkvhUEe24gK1e9hy51w" name="descricao">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_z_odlfhUEe24gK1e9hy51w" type="_z_n2gPhUEe24gK1e9hy51w" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_z_odlvhUEe24gK1e9hy51w" name="executar" method="_0AARB_hUEe24gK1e9hy51w"/>
+      <ownedOperation xmi:id="_z_7_kvhUEe24gK1e9hy51w" name="adicionarTarefa" method="_0AARCPhUEe24gK1e9hy51w">
+        <ownedParameter xmi:id="_z_7_k_hUEe24gK1e9hy51w" name="tarefa" type="_z_nPcfhUEe24gK1e9hy51w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_z_8mo_hUEe24gK1e9hy51w" name="removerTarefa" method="_0AARCvhUEe24gK1e9hy51w">
+        <ownedParameter xmi:id="_z_8mpPhUEe24gK1e9hy51w" name="tarefa" type="_z_nPcfhUEe24gK1e9hy51w"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_z_prsPhUEe24gK1e9hy51w" name="TarefaSimples">
+      <ownedAttribute xmi:id="_z__C5fhUEe24gK1e9hy51w" name="nome" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_z__p8fhUEe24gK1e9hy51w" name="descricao" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_z_8mqPhUEe24gK1e9hy51w" client="_z_prsPhUEe24gK1e9hy51w" supplier="_z_nPcfhUEe24gK1e9hy51w" contract="_z_nPcfhUEe24gK1e9hy51w"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0AARDPhUEe24gK1e9hy51w" name="TarefaSimples" specification="_z_qSwPhUEe24gK1e9hy51w">
+        <ownedParameter xmi:id="_0AARDfhUEe24gK1e9hy51w" name="nome">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_0AARDvhUEe24gK1e9hy51w" name="descricao">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_0AARD_hUEe24gK1e9hy51w" type="_z_prsPhUEe24gK1e9hy51w" direction="return"/>
+        <language>java</language>
+        <body>this.nome = nome;&#xD;
+     this.descricao = descricao;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_0AA4EPhUEe24gK1e9hy51w" name="executar" specification="_z_qSxvhUEe24gK1e9hy51w">
+        <language>java</language>
+        <body>System.out.println(&quot;Executando a tarefa: &quot; + nome);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_z_qSwPhUEe24gK1e9hy51w" name="TarefaSimples" method="_0AARDPhUEe24gK1e9hy51w">
+        <eAnnotations xmi:id="_z_qSw_hUEe24gK1e9hy51w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_z_qSxPhUEe24gK1e9hy51w" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_z_qSwfhUEe24gK1e9hy51w" name="nome">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_z_qSwvhUEe24gK1e9hy51w" name="descricao">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_z_qSxfhUEe24gK1e9hy51w" type="_z_prsPhUEe24gK1e9hy51w" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_z_qSxvhUEe24gK1e9hy51w" name="executar" method="_0AA4EPhUEe24gK1e9hy51w"/>
+      <ownedOperation xmi:id="_z_9NsPhUEe24gK1e9hy51w" name="adicionarTarefa">
+        <ownedParameter xmi:id="_z_9NsfhUEe24gK1e9hy51w" name="tarefa" type="_z_nPcfhUEe24gK1e9hy51w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_z_9NtfhUEe24gK1e9hy51w" name="removerTarefa">
+        <ownedParameter xmi:id="_z_9NtvhUEe24gK1e9hy51w" name="tarefa" type="_z_nPcfhUEe24gK1e9hy51w"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_0ACGMPhUEe24gK1e9hy51w" name="" memberEnd="_0ACGMfhUEe24gK1e9hy51w _z__C4vhUEe24gK1e9hy51w">
+      <ownedEnd xmi:id="_0ACGMfhUEe24gK1e9hy51w" name="" type="_z_n2gPhUEe24gK1e9hy51w" association="_0ACGMPhUEe24gK1e9hy51w"/>
+    </packagedElement>
+    <profileApplication xmi:id="_z6gF8PhUEe24gK1e9hy51w">
+      <eAnnotations xmi:id="_z6gF8fhUEe24gK1e9hy51w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_z6gF8vhUEe24gK1e9hy51w" base_Package="_z1IdwPhUEe24gK1e9hy51w">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z_odl_hUEe24gK1e9hy51w" base_Element="_z_odlvhUEe24gK1e9hy51w"/>
+  <UMLLabProfile:Annotations xmi:id="_z_pEoPhUEe24gK1e9hy51w" base_Element="_z_odlvhUEe24gK1e9hy51w">
+    <annotations xmi:id="_z_pEofhUEe24gK1e9hy51w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z_q50PhUEe24gK1e9hy51w" base_Element="_z_qSxvhUEe24gK1e9hy51w"/>
+  <UMLLabProfile:Annotations xmi:id="_z_q50fhUEe24gK1e9hy51w" base_Element="_z_qSxvhUEe24gK1e9hy51w">
+    <annotations xmi:id="_z_q50vhUEe24gK1e9hy51w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_z_7YgfhUEe24gK1e9hy51w" base_Element="_z_7YgPhUEe24gK1e9hy51w"/>
+  <UMLLabProfile:Reference xmi:id="_z_7_kPhUEe24gK1e9hy51w" base_Element="_z_7YgvhUEe24gK1e9hy51w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z_8moPhUEe24gK1e9hy51w" base_Element="_z_7_kvhUEe24gK1e9hy51w"/>
+  <UMLLabProfile:Annotations xmi:id="_z_8mofhUEe24gK1e9hy51w" base_Element="_z_7_kvhUEe24gK1e9hy51w">
+    <annotations xmi:id="_z_8movhUEe24gK1e9hy51w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z_8mpfhUEe24gK1e9hy51w" base_Element="_z_8mo_hUEe24gK1e9hy51w"/>
+  <UMLLabProfile:Annotations xmi:id="_z_8mpvhUEe24gK1e9hy51w" base_Element="_z_8mo_hUEe24gK1e9hy51w">
+    <annotations xmi:id="_z_8mp_hUEe24gK1e9hy51w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z_9NsvhUEe24gK1e9hy51w" base_Element="_z_9NsPhUEe24gK1e9hy51w"/>
+  <UMLLabProfile:Annotations xmi:id="_z_9Ns_hUEe24gK1e9hy51w" base_Element="_z_9NsPhUEe24gK1e9hy51w">
+    <annotations xmi:id="_z_9NtPhUEe24gK1e9hy51w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z_90wPhUEe24gK1e9hy51w" base_Element="_z_9NtfhUEe24gK1e9hy51w"/>
+  <UMLLabProfile:Annotations xmi:id="_z_90wfhUEe24gK1e9hy51w" base_Element="_z_9NtfhUEe24gK1e9hy51w">
+    <annotations xmi:id="_z_90wvhUEe24gK1e9hy51w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z_-b0fhUEe24gK1e9hy51w" base_Element="_z_-b0PhUEe24gK1e9hy51w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z__C4fhUEe24gK1e9hy51w" base_Element="_z__C4PhUEe24gK1e9hy51w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z__C5PhUEe24gK1e9hy51w" base_Element="_z__C4vhUEe24gK1e9hy51w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z__p8PhUEe24gK1e9hy51w" base_Element="_z__C5fhUEe24gK1e9hy51w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_z__p8vhUEe24gK1e9hy51w" base_Element="_z__p8fhUEe24gK1e9hy51w"/>
+  <UMLLabProfile:Reference xmi:id="_0ACtQPhUEe24gK1e9hy51w" base_Element="_0ACGMPhUEe24gK1e9hy51w"/>
+</xmi:XMI>

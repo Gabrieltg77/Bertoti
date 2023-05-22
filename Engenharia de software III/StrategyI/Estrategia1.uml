@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ahU3gLd3Ee2H-68HFuco9Q" name="Estrategia1">
+    <eAnnotations xmi:id="_amvjALd3Ee2H-68HFuco9Q" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_amvjAbd3Ee2H-68HFuco9Q" source="codegen">
+        <details xmi:id="_amvjArd3Ee2H-68HFuco9Q" key="codegenDirectory" value="/Estrategia1/src"/>
+        <details xmi:id="_at3esLd3Ee2H-68HFuco9Q" key="AssociatedSourceCode" value="/Estrategia1/src/estrategia/ConversaoMoeda.java;1955399584/1;/Estrategia1/src/estrategia/Conversor.java;1418838/1;/Estrategia1/src/estrategia/ConversorDolarReal.java;1032458158/1;/Estrategia1/src/estrategia/ConversorRealEuro.java;3654106661/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_arzpMLd3Ee2H-68HFuco9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_ar0QQLd3Ee2H-68HFuco9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_ar0QQbd3Ee2H-68HFuco9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_ar0QQrd3Ee2H-68HFuco9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_ar0QQ7d3Ee2H-68HFuco9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_ar0QRLd3Ee2H-68HFuco9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_ar0QRbd3Ee2H-68HFuco9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_ar0QRrd3Ee2H-68HFuco9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_ar03ULd3Ee2H-68HFuco9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ar5IwLd3Ee2H-68HFuco9Q" name="estrategia">
+      <packagedElement xmi:type="uml:Class" xmi:id="_asHLMLd3Ee2H-68HFuco9Q" name="ConversaoMoeda">
+        <ownedAttribute xmi:id="_asrL4Ld3Ee2H-68HFuco9Q" name="conversor" visibility="private" type="_asNR0Ld3Ee2H-68HFuco9Q" association="_as6ccLd3Ee2H-68HFuco9Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aszuwLd3Ee2H-68HFuco9Q" name="ConversaoMoeda" specification="_asmTYLd3Ee2H-68HFuco9Q">
+          <ownedParameter xmi:id="_aszuwbd3Ee2H-68HFuco9Q" name="conversor" type="_asNR0Ld3Ee2H-68HFuco9Q"/>
+          <ownedParameter xmi:id="_aszuwrd3Ee2H-68HFuco9Q" type="_asHLMLd3Ee2H-68HFuco9Q" direction="return"/>
+          <language>java</language>
+          <body>this.conversor = conversor;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_as4AMLd3Ee2H-68HFuco9Q" name="converter" specification="_asJncLd3Ee2H-68HFuco9Q">
+          <ownedParameter xmi:id="_as4AMbd3Ee2H-68HFuco9Q" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_as4AMrd3Ee2H-68HFuco9Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return conversor.converter(valor);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_as4AM7d3Ee2H-68HFuco9Q" name="main">
+          <ownedParameter xmi:id="_as4ANLd3Ee2H-68HFuco9Q" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_as4ANbd3Ee2H-68HFuco9Q" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>ConversaoMoeda conversaoDolarReal = new ConversaoMoeda(new ConversorDolarReal(5.3));&#xD;
+     ConversaoMoeda conversaoRealEuro = new ConversaoMoeda(new ConversorRealEuro(6.5));&#xD;
+&#xD;
+     double valorEmDolar = 100.0;&#xD;
+     double valorEmReal = 500.0;&#xD;
+&#xD;
+     double valorConvertidoDolarReal = conversaoDolarReal.converter(valorEmDolar); // valorConvertidoDolarReal = 530.0&#xD;
+     double valorConvertidoRealEuro = conversaoRealEuro.converter(valorEmReal); // valorConvertidoRealEuro = 76.92&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_asJncLd3Ee2H-68HFuco9Q" name="converter" method="_as4AMLd3Ee2H-68HFuco9Q">
+          <ownedParameter xmi:id="_asKOgLd3Ee2H-68HFuco9Q" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_asK1kLd3Ee2H-68HFuco9Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_asmTYLd3Ee2H-68HFuco9Q" name="ConversaoMoeda" method="_aszuwLd3Ee2H-68HFuco9Q">
+          <eAnnotations xmi:id="_asmTYrd3Ee2H-68HFuco9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_asmTY7d3Ee2H-68HFuco9Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_asmTYbd3Ee2H-68HFuco9Q" name="conversor" type="_asNR0Ld3Ee2H-68HFuco9Q"/>
+          <ownedParameter xmi:id="_asmTZLd3Ee2H-68HFuco9Q" type="_asHLMLd3Ee2H-68HFuco9Q" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_asNR0Ld3Ee2H-68HFuco9Q" name="Conversor">
+        <ownedOperation xmi:id="_asN44Ld3Ee2H-68HFuco9Q" name="converter">
+          <ownedParameter xmi:id="_asOf8Ld3Ee2H-68HFuco9Q" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_asOf8bd3Ee2H-68HFuco9Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_asPHALd3Ee2H-68HFuco9Q" name="ConversorDolarReal">
+        <ownedAttribute xmi:id="_assaALd3Ee2H-68HFuco9Q" name="taxaCambio" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_asp9wLd3Ee2H-68HFuco9Q" client="_asPHALd3Ee2H-68HFuco9Q" supplier="_asNR0Ld3Ee2H-68HFuco9Q" contract="_asNR0Ld3Ee2H-68HFuco9Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_as4nQLd3Ee2H-68HFuco9Q" name="ConversorDolarReal" specification="_asPuELd3Ee2H-68HFuco9Q">
+          <ownedParameter xmi:id="_as4nQbd3Ee2H-68HFuco9Q" name="taxaCambio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_as4nQrd3Ee2H-68HFuco9Q" type="_asPHALd3Ee2H-68HFuco9Q" direction="return"/>
+          <language>java</language>
+          <body>this.taxaCambio = taxaCambio;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_as4nQ7d3Ee2H-68HFuco9Q" name="converter" specification="_asQVI7d3Ee2H-68HFuco9Q">
+          <ownedParameter xmi:id="_as4nRLd3Ee2H-68HFuco9Q" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_as4nRbd3Ee2H-68HFuco9Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return valor * taxaCambio;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_asPuELd3Ee2H-68HFuco9Q" name="ConversorDolarReal" method="_as4nQLd3Ee2H-68HFuco9Q">
+          <eAnnotations xmi:id="_asQVILd3Ee2H-68HFuco9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_asQVIbd3Ee2H-68HFuco9Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_asPuEbd3Ee2H-68HFuco9Q" name="taxaCambio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_asQVIrd3Ee2H-68HFuco9Q" type="_asPHALd3Ee2H-68HFuco9Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_asQVI7d3Ee2H-68HFuco9Q" name="converter" method="_as4nQ7d3Ee2H-68HFuco9Q">
+          <ownedParameter xmi:id="_asQVJLd3Ee2H-68HFuco9Q" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_asQ8MLd3Ee2H-68HFuco9Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_asTYcLd3Ee2H-68HFuco9Q" name="ConversorRealEuro">
+        <ownedAttribute xmi:id="_assaArd3Ee2H-68HFuco9Q" name="taxaCambio" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_asqk0Ld3Ee2H-68HFuco9Q" client="_asTYcLd3Ee2H-68HFuco9Q" supplier="_asNR0Ld3Ee2H-68HFuco9Q" contract="_asNR0Ld3Ee2H-68HFuco9Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_as4nRrd3Ee2H-68HFuco9Q" name="ConversorRealEuro" specification="_asUmkLd3Ee2H-68HFuco9Q">
+          <ownedParameter xmi:id="_as4nR7d3Ee2H-68HFuco9Q" name="taxaCambio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_as4nSLd3Ee2H-68HFuco9Q" type="_asTYcLd3Ee2H-68HFuco9Q" direction="return"/>
+          <language>java</language>
+          <body>this.taxaCambio = taxaCambio;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_as4nSbd3Ee2H-68HFuco9Q" name="converter" specification="_asVNoLd3Ee2H-68HFuco9Q">
+          <ownedParameter xmi:id="_as4nSrd3Ee2H-68HFuco9Q" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_as4nS7d3Ee2H-68HFuco9Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return valor / taxaCambio;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_asUmkLd3Ee2H-68HFuco9Q" name="ConversorRealEuro" method="_as4nRrd3Ee2H-68HFuco9Q">
+          <eAnnotations xmi:id="_asUmkrd3Ee2H-68HFuco9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_asUmk7d3Ee2H-68HFuco9Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_asUmkbd3Ee2H-68HFuco9Q" name="taxaCambio">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_asUmlLd3Ee2H-68HFuco9Q" type="_asTYcLd3Ee2H-68HFuco9Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_asVNoLd3Ee2H-68HFuco9Q" name="converter" method="_as4nSbd3Ee2H-68HFuco9Q">
+          <ownedParameter xmi:id="_asVNobd3Ee2H-68HFuco9Q" name="valor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_asV0sLd3Ee2H-68HFuco9Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_as6ccLd3Ee2H-68HFuco9Q" name="" memberEnd="_as6ccbd3Ee2H-68HFuco9Q _asrL4Ld3Ee2H-68HFuco9Q">
+        <ownedEnd xmi:id="_as6ccbd3Ee2H-68HFuco9Q" name="" type="_asHLMLd3Ee2H-68HFuco9Q" association="_as6ccLd3Ee2H-68HFuco9Q"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_amwKELd3Ee2H-68HFuco9Q">
+      <eAnnotations xmi:id="_amwKEbd3Ee2H-68HFuco9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_amwKErd3Ee2H-68HFuco9Q" base_Package="_ahU3gLd3Ee2H-68HFuco9Q">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_asQ8Mbd3Ee2H-68HFuco9Q" base_Element="_asQVI7d3Ee2H-68HFuco9Q"/>
+  <UMLLabProfile:Annotations xmi:id="_asSKULd3Ee2H-68HFuco9Q" base_Element="_asQVI7d3Ee2H-68HFuco9Q">
+    <annotations xmi:id="_asSKUbd3Ee2H-68HFuco9Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_asWbwLd3Ee2H-68HFuco9Q" base_Element="_asVNoLd3Ee2H-68HFuco9Q"/>
+  <UMLLabProfile:Annotations xmi:id="_asWbwbd3Ee2H-68HFuco9Q" base_Element="_asVNoLd3Ee2H-68HFuco9Q">
+    <annotations xmi:id="_asXC0Ld3Ee2H-68HFuco9Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_asry8Ld3Ee2H-68HFuco9Q" base_Element="_asrL4Ld3Ee2H-68HFuco9Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_assaAbd3Ee2H-68HFuco9Q" base_Element="_assaALd3Ee2H-68HFuco9Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_astBELd3Ee2H-68HFuco9Q" base_Element="_assaArd3Ee2H-68HFuco9Q"/>
+  <UMLLabProfile:Reference xmi:id="_as7qkLd3Ee2H-68HFuco9Q" base_Element="_as6ccLd3Ee2H-68HFuco9Q"/>
+</xmi:XMI>

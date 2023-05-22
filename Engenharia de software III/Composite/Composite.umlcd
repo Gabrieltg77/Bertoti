@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_z2dTcPhUEe24gK1e9hy51w">
+  <modelElement href="Composite.uml#_z1IdwPhUEe24gK1e9hy51w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_0B2EEPhUEe24gK1e9hy51w" sourceAnchor="240.0,0.0" targetAnchor="134.0,131.0" dashed="true" superClass="_0CXBcPhUEe24gK1e9hy51w" subClass="_0B2rIPhUEe24gK1e9hy51w">
+    <modelElement href="Composite.uml#_z_8mqPhUEe24gK1e9hy51w"/>
+    <bendpoints xmi:id="_3SQE4_hUEe24gK1e9hy51w" sourceY="-35" targetX="291" targetY="27"/>
+    <bendpoints xmi:id="_3SQE5PhUEe24gK1e9hy51w" sourceX="-291" sourceY="-35" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0CQ60PhUEe24gK1e9hy51w" sourceAnchor="226.0,0.0" targetAnchor="0.0,66.0" target="_0CXBcPhUEe24gK1e9hy51w" source="_0CTXEPhUEe24gK1e9hy51w">
+    <modelElement href="Composite.uml#_0ACGMPhUEe24gK1e9hy51w"/>
+    <bendpoints xmi:id="_3SQE4PhUEe24gK1e9hy51w" sourceY="-119" targetX="-168"/>
+    <stereotypes xmi:id="_0CRh4PhUEe24gK1e9hy51w" name="Reference">
+      <modelElement href="Composite.uml#_0ACtQPhUEe24gK1e9hy51w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0CQ60vhUEe24gK1e9hy51w" text="">
+      <visualProperties xmi:id="_0iFqY_hUEe24gK1e9hy51w" position="51.0,-24.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0CQ60_hUEe24gK1e9hy51w" aggregationKind="NONE" name="">
+      <modelElement href="Composite.uml#_0ACGMfhUEe24gK1e9hy51w"/>
+      <visualProperties xmi:id="_0iFqYvhUEe24gK1e9hy51w" position="1.0,-78.5"/>
+      <visibility xmi:id="_0CSI8fhUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0CSI8PhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0CQ61PhUEe24gK1e9hy51w" aggregationKind="NONE" name="tarefas" navigable="true">
+      <modelElement href="Composite.uml#_z__C4vhUEe24gK1e9hy51w"/>
+      <visualProperties xmi:id="_0iGRcPhUEe24gK1e9hy51w" position="-127.0,0.5"/>
+      <visibility xmi:id="_0CSwAPhUEe24gK1e9hy51w" label="-"/>
+      <cardinality xmi:id="_0CSI8vhUEe24gK1e9hy51w" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_0CQ60fhUEe24gK1e9hy51w" sourceAnchor="256.0,0.0" targetAnchor="134.0,131.0" dashed="true" superClass="_0CXBcPhUEe24gK1e9hy51w" subClass="_0CTXEPhUEe24gK1e9hy51w">
+    <modelElement href="Composite.uml#_z_7_kfhUEe24gK1e9hy51w"/>
+    <bendpoints xmi:id="_3SQE4fhUEe24gK1e9hy51w" sourceY="-27" targetX="-272" targetY="27"/>
+    <bendpoints xmi:id="_3SQE4vhUEe24gK1e9hy51w" sourceX="272" sourceY="-27" targetY="27"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0Bzn0PhUEe24gK1e9hy51w" name="Main">
+    <modelElement href="Composite.uml#_z_mBUPhUEe24gK1e9hy51w"/>
+    <visualProperties xmi:id="_0Bzn0fhUEe24gK1e9hy51w" position="323.0,-368.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0Bzn0vhUEe24gK1e9hy51w" label="+"/>
+    <operations xmi:id="_0Bzn0_hUEe24gK1e9hy51w" name="main" staticOperation="true">
+      <modelElement href="Composite.uml#_z_moaPhUEe24gK1e9hy51w"/>
+      <visibility xmi:id="_0Bzn1PhUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0Bzn1fhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0Bzn1vhUEe24gK1e9hy51w" name="args">
+        <modelElement href="Composite.uml#_z_moafhUEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_0Bzn1_hUEe24gK1e9hy51w" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_0Bzn2PhUEe24gK1e9hy51w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0B2rIPhUEe24gK1e9hy51w" name="TarefaSimples" generalizations="_0B2EEPhUEe24gK1e9hy51w">
+    <modelElement href="Composite.uml#_z_prsPhUEe24gK1e9hy51w"/>
+    <visualProperties xmi:id="_0B2rIfhUEe24gK1e9hy51w" position="126.0,-144.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0B2rIvhUEe24gK1e9hy51w" label="+"/>
+    <attributes xmi:id="_0B2rI_hUEe24gK1e9hy51w" name="nome">
+      <modelElement href="Composite.uml#_z__C5fhUEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_0B2rJPhUEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="Composite.uml#_z__p8PhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_0B2rJfhUEe24gK1e9hy51w" label="-"/>
+      <cardinality xmi:id="_0B2rJvhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <type xmi:id="_0B2rJ_hUEe24gK1e9hy51w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0B2rKPhUEe24gK1e9hy51w" name="descricao">
+      <modelElement href="Composite.uml#_z__p8fhUEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_0B2rKfhUEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="Composite.uml#_z__p8vhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_0B2rKvhUEe24gK1e9hy51w" label="-"/>
+      <cardinality xmi:id="_0B2rK_hUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <type xmi:id="_0B2rLPhUEe24gK1e9hy51w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0B3SMPhUEe24gK1e9hy51w" name="TarefaSimples">
+      <modelElement href="Composite.uml#_z_qSwPhUEe24gK1e9hy51w"/>
+      <keywords xmi:id="_0B3SMfhUEe24gK1e9hy51w" keyword="create"/>
+      <visibility xmi:id="_0B3SMvhUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0B3SM_hUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0B3SNPhUEe24gK1e9hy51w">
+        <modelElement href="Composite.uml#_z_qSxfhUEe24gK1e9hy51w"/>
+        <type xmi:id="_0B3SNfhUEe24gK1e9hy51w" name="TarefaSimples">
+          <modelElement href="Composite.uml#_z_prsPhUEe24gK1e9hy51w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0B3SNvhUEe24gK1e9hy51w" name="nome">
+        <modelElement href="Composite.uml#_z_qSwfhUEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_0B3SN_hUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+        <type xmi:id="_0B3SOPhUEe24gK1e9hy51w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0B3SOfhUEe24gK1e9hy51w" name="descricao">
+        <modelElement href="Composite.uml#_z_qSwvhUEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_0B3SOvhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+        <type xmi:id="_0B3SO_hUEe24gK1e9hy51w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0B3SPPhUEe24gK1e9hy51w" name="executar">
+      <modelElement href="Composite.uml#_z_qSxvhUEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_0B3SPfhUEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="Composite.uml#_z_q50PhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0B3SPvhUEe24gK1e9hy51w" name="Annotations">
+        <modelElement href="Composite.uml#_z_q50fhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_0B3SP_hUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0B3SQPhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0B3SQfhUEe24gK1e9hy51w" name="adicionarTarefa">
+      <modelElement href="Composite.uml#_z_9NsPhUEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_0B3SQvhUEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="Composite.uml#_z_9NsvhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0B3SQ_hUEe24gK1e9hy51w" name="Annotations">
+        <modelElement href="Composite.uml#_z_9Ns_hUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_0B3SRPhUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0B3SRfhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0B3SRvhUEe24gK1e9hy51w" name="tarefa">
+        <modelElement href="Composite.uml#_z_9NsfhUEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_0B3SR_hUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+        <type xmi:id="_0B3SSPhUEe24gK1e9hy51w" name="Tarefa">
+          <modelElement href="Composite.uml#_z_nPcfhUEe24gK1e9hy51w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0B3SSfhUEe24gK1e9hy51w" name="removerTarefa">
+      <modelElement href="Composite.uml#_z_9NtfhUEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_0B3SSvhUEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="Composite.uml#_z_90wPhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0B3SS_hUEe24gK1e9hy51w" name="Annotations">
+        <modelElement href="Composite.uml#_z_90wfhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_0B3STPhUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0B3STfhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0B3STvhUEe24gK1e9hy51w" name="tarefa">
+        <modelElement href="Composite.uml#_z_9NtvhUEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_0B3ST_hUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+        <type xmi:id="_0B3SUPhUEe24gK1e9hy51w" name="Tarefa">
+          <modelElement href="Composite.uml#_z_nPcfhUEe24gK1e9hy51w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_0CXBcPhUEe24gK1e9hy51w" name="Tarefa" associationsIn="_0CQ60PhUEe24gK1e9hy51w" subclassedBy="_0B2EEPhUEe24gK1e9hy51w _0CQ60fhUEe24gK1e9hy51w">
+    <modelElement href="Composite.uml#_z_nPcfhUEe24gK1e9hy51w"/>
+    <visualProperties xmi:id="_0CXBcfhUEe24gK1e9hy51w" position="-59.0,-337.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0CXBcvhUEe24gK1e9hy51w" label="+"/>
+    <operations xmi:id="_0CXBc_hUEe24gK1e9hy51w" name="executar">
+      <modelElement href="Composite.uml#_z_nPcvhUEe24gK1e9hy51w"/>
+      <visibility xmi:id="_0CXBdPhUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0CXBdfhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0CXBdvhUEe24gK1e9hy51w" name="adicionarTarefa">
+      <modelElement href="Composite.uml#_z_6xcPhUEe24gK1e9hy51w"/>
+      <visibility xmi:id="_0CXBd_hUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0CXBePhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0CXBefhUEe24gK1e9hy51w" name="tarefa">
+        <modelElement href="Composite.uml#_z_6xcfhUEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_0CXBevhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+        <type xmi:id="_0CXBe_hUEe24gK1e9hy51w" name="Tarefa">
+          <modelElement href="Composite.uml#_z_nPcfhUEe24gK1e9hy51w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0CXBfPhUEe24gK1e9hy51w" name="removerTarefa">
+      <modelElement href="Composite.uml#_z_6xcvhUEe24gK1e9hy51w"/>
+      <visibility xmi:id="_0CXBffhUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0CXBfvhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0CXBf_hUEe24gK1e9hy51w" name="tarefa">
+        <modelElement href="Composite.uml#_z_6xc_hUEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_0CXBgPhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+        <type xmi:id="_0CXBgfhUEe24gK1e9hy51w" name="Tarefa">
+          <modelElement href="Composite.uml#_z_nPcfhUEe24gK1e9hy51w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0CTXEPhUEe24gK1e9hy51w" name="TarefaComposta" associationsOut="_0CQ60PhUEe24gK1e9hy51w" generalizations="_0CQ60fhUEe24gK1e9hy51w">
+    <modelElement href="Composite.uml#_z_n2gPhUEe24gK1e9hy51w"/>
+    <visualProperties xmi:id="_0CTXEfhUEe24gK1e9hy51w" position="-453.0,-152.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0CTXEvhUEe24gK1e9hy51w" label="+"/>
+    <attributes xmi:id="_0CTXE_hUEe24gK1e9hy51w" name="nome">
+      <modelElement href="Composite.uml#_z_-b0PhUEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_0CTXFPhUEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="Composite.uml#_z_-b0fhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_0CTXFfhUEe24gK1e9hy51w" label="-"/>
+      <cardinality xmi:id="_0CTXFvhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <type xmi:id="_0CTXF_hUEe24gK1e9hy51w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0CTXGPhUEe24gK1e9hy51w" name="descricao">
+      <modelElement href="Composite.uml#_z__C4PhUEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_0CTXGfhUEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="Composite.uml#_z__C4fhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_0CTXGvhUEe24gK1e9hy51w" label="-"/>
+      <cardinality xmi:id="_0CTXG_hUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <type xmi:id="_0CTXHPhUEe24gK1e9hy51w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0CTXHfhUEe24gK1e9hy51w" name="tarefas">
+      <modelElement href="Composite.uml#_z__C4vhUEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_0CTXHvhUEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="Composite.uml#_z__C5PhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_0CTXH_hUEe24gK1e9hy51w" label="-"/>
+      <cardinality xmi:id="_0CTXIPhUEe24gK1e9hy51w" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_0CTXIfhUEe24gK1e9hy51w" name="Tarefa">
+        <modelElement href="Composite.uml#_z_nPcfhUEe24gK1e9hy51w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0CTXIvhUEe24gK1e9hy51w" name="TarefaComposta">
+      <modelElement href="Composite.uml#_z_odkPhUEe24gK1e9hy51w"/>
+      <keywords xmi:id="_0CTXI_hUEe24gK1e9hy51w" keyword="create"/>
+      <visibility xmi:id="_0CTXJPhUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0CTXJfhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0CTXJvhUEe24gK1e9hy51w">
+        <modelElement href="Composite.uml#_z_odlfhUEe24gK1e9hy51w"/>
+        <type xmi:id="_0CTXJ_hUEe24gK1e9hy51w" name="TarefaComposta">
+          <modelElement href="Composite.uml#_z_n2gPhUEe24gK1e9hy51w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0CTXKPhUEe24gK1e9hy51w" name="nome">
+        <modelElement href="Composite.uml#_z_odkfhUEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_0CTXKfhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+        <type xmi:id="_0CTXKvhUEe24gK1e9hy51w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0CTXK_hUEe24gK1e9hy51w" name="descricao">
+        <modelElement href="Composite.uml#_z_odkvhUEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_0CTXLPhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+        <type xmi:id="_0CTXLfhUEe24gK1e9hy51w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0CTXLvhUEe24gK1e9hy51w" name="executar">
+      <modelElement href="Composite.uml#_z_odlvhUEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_0CTXL_hUEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="Composite.uml#_z_odl_hUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0CTXMPhUEe24gK1e9hy51w" name="Annotations">
+        <modelElement href="Composite.uml#_z_pEoPhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_0CTXMfhUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0CTXMvhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0CTXM_hUEe24gK1e9hy51w" name="adicionarTarefa">
+      <modelElement href="Composite.uml#_z_7_kvhUEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_0CTXNPhUEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="Composite.uml#_z_8moPhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0CTXNfhUEe24gK1e9hy51w" name="Annotations">
+        <modelElement href="Composite.uml#_z_8mofhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_0CTXNvhUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0CTXN_hUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0CTXOPhUEe24gK1e9hy51w" name="tarefa">
+        <modelElement href="Composite.uml#_z_7_k_hUEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_0CTXOfhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+        <type xmi:id="_0CTXOvhUEe24gK1e9hy51w" name="Tarefa">
+          <modelElement href="Composite.uml#_z_nPcfhUEe24gK1e9hy51w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0CTXO_hUEe24gK1e9hy51w" name="removerTarefa">
+      <modelElement href="Composite.uml#_z_8mo_hUEe24gK1e9hy51w"/>
+      <stereotypes xmi:id="_0CTXPPhUEe24gK1e9hy51w" name="LegacyStyledElement">
+        <modelElement href="Composite.uml#_z_8mpfhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0CTXPfhUEe24gK1e9hy51w" name="Annotations">
+        <modelElement href="Composite.uml#_z_8mpvhUEe24gK1e9hy51w"/>
+      </stereotypes>
+      <visibility xmi:id="_0CTXPvhUEe24gK1e9hy51w" label="+"/>
+      <cardinality xmi:id="_0CTXP_hUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0CTXQPhUEe24gK1e9hy51w" name="tarefa">
+        <modelElement href="Composite.uml#_z_8mpPhUEe24gK1e9hy51w"/>
+        <cardinality xmi:id="_0CTXQfhUEe24gK1e9hy51w" label="1" max="1" min="1"/>
+        <type xmi:id="_0CTXQvhUEe24gK1e9hy51w" name="Tarefa">
+          <modelElement href="Composite.uml#_z_nPcfhUEe24gK1e9hy51w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
