@@ -1,45 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_aiXZULd3Ee2H-68HFuco9Q">
   <modelElement href="Estrategia1.uml#_ar5IwLd3Ee2H-68HFuco9Q"/>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_auIkcLd3Ee2H-68HFuco9Q" sourceAnchor="230.0,0.0" targetAnchor="0.0,43.0" target="_aunFkLd3Ee2H-68HFuco9Q" source="_auJLgLd3Ee2H-68HFuco9Q">
-    <modelElement href="Estrategia1.uml#_as6ccLd3Ee2H-68HFuco9Q"/>
-    <bendpoints xmi:id="_29puMLd3Ee2H-68HFuco9Q" sourceY="-295" targetX="-616"/>
-    <stereotypes xmi:id="_auIkcbd3Ee2H-68HFuco9Q" name="Reference">
-      <modelElement href="Estrategia1.uml#_as7qkLd3Ee2H-68HFuco9Q"/>
-    </stereotypes>
-    <nameVisual xmi:id="_auIkcrd3Ee2H-68HFuco9Q" text="">
-      <visualProperties xmi:id="_bBdJELd3Ee2H-68HFuco9Q" position="251.0,-25.0"/>
-    </nameVisual>
-    <sourceRole xmi:id="_auIkc7d3Ee2H-68HFuco9Q" aggregationKind="NONE" name="">
-      <modelElement href="Estrategia1.uml#_as6ccbd3Ee2H-68HFuco9Q"/>
-      <visualProperties xmi:id="_bBciArd3Ee2H-68HFuco9Q" position="-18.0,-96.0"/>
-      <visibility xmi:id="_auIkdLd3Ee2H-68HFuco9Q" label="+"/>
-      <cardinality xmi:id="_auIkdbd3Ee2H-68HFuco9Q" label="1" max="1" min="1"/>
-    </sourceRole>
-    <targetRole xmi:id="_auIkdrd3Ee2H-68HFuco9Q" aggregationKind="NONE" name="conversor" navigable="true">
-      <modelElement href="Estrategia1.uml#_asrL4Ld3Ee2H-68HFuco9Q"/>
-      <visualProperties xmi:id="_bBdwILd3Ee2H-68HFuco9Q" position="-148.0,0.9999999999999432"/>
-      <stereotypes xmi:id="_qXVqcPhQEe2ewpYsDi4W0A" name="LegacyStyledElement">
-        <modelElement href="Estrategia1.uml#_asry8Ld3Ee2H-68HFuco9Q"/>
-      </stereotypes>
-      <visibility xmi:id="_auIkd7d3Ee2H-68HFuco9Q" label="-"/>
-      <cardinality xmi:id="_auIkeLd3Ee2H-68HFuco9Q" label="1" max="1" min="1"/>
-    </targetRole>
-  </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_auaRQLd3Ee2H-68HFuco9Q" sourceAnchor="237.0,0.0" targetAnchor="143.0,85.0" dashed="true" superClass="_aunFkLd3Ee2H-68HFuco9Q" subClass="_audUkLd3Ee2H-68HFuco9Q">
     <modelElement href="Estrategia1.uml#_asqk0Ld3Ee2H-68HFuco9Q"/>
-    <bendpoints xmi:id="_29qVQLd3Ee2H-68HFuco9Q" sourceY="-30" targetX="313" targetY="96"/>
-    <bendpoints xmi:id="_29qVQbd3Ee2H-68HFuco9Q" sourceX="-313" sourceY="-30" targetY="96"/>
+    <bendpoints xmi:id="_4k8cEAjMEe6PxJ-VqbWLkw" sourceY="-30" targetX="313" targetY="96"/>
+    <bendpoints xmi:id="_4k8cEQjMEe6PxJ-VqbWLkw" sourceX="-313" sourceY="-30" targetY="96"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_aug-8Ld3Ee2H-68HFuco9Q" sourceAnchor="244.0,0.0" targetAnchor="143.0,85.0" dashed="true" superClass="_aunFkLd3Ee2H-68HFuco9Q" subClass="_aui0ILd3Ee2H-68HFuco9Q">
     <modelElement href="Estrategia1.uml#_asp9wLd3Ee2H-68HFuco9Q"/>
-    <bendpoints xmi:id="_29puMbd3Ee2H-68HFuco9Q" sourceY="-32" targetX="-227" targetY="96"/>
-    <bendpoints xmi:id="_29puMrd3Ee2H-68HFuco9Q" sourceX="227" sourceY="-32" targetY="96"/>
+    <bendpoints xmi:id="_4k8cEgjMEe6PxJ-VqbWLkw" sourceY="-32" targetX="-227" targetY="96"/>
+    <bendpoints xmi:id="_4k8cEwjMEe6PxJ-VqbWLkw" sourceX="227" sourceY="-32" targetY="96"/>
   </edges>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_aunFkLd3Ee2H-68HFuco9Q" name="Conversor" associationsIn="_auIkcLd3Ee2H-68HFuco9Q" subclassedBy="_auaRQLd3Ee2H-68HFuco9Q _aug-8Ld3Ee2H-68HFuco9Q">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0G8HEAjJEe6PxJ-VqbWLkw" sourceAnchor="202.0,1.0" targetAnchor="0.0,43.0" target="_aunFkLd3Ee2H-68HFuco9Q" source="_auJLgLd3Ee2H-68HFuco9Q">
+    <modelElement href="Estrategia1.uml#_0G6R4AjJEe6PxJ-VqbWLkw"/>
+    <visualProperties xmi:id="_0G8HEQjJEe6PxJ-VqbWLkw"/>
+    <bendpoints xmi:id="_4k8cFAjMEe6PxJ-VqbWLkw" sourceX="-2" sourceY="-296" targetX="-646"/>
+    <nameVisual xmi:id="_0G8HEgjJEe6PxJ-VqbWLkw" text="">
+      <visualProperties xmi:id="_0I09cAjJEe6PxJ-VqbWLkw" position="302.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_0G8HEwjJEe6PxJ-VqbWLkw" aggregationKind="NONE" name="conversaoMoeda" navigable="true">
+      <modelElement href="Estrategia1.uml#_0G648AjJEe6PxJ-VqbWLkw"/>
+      <visualProperties xmi:id="_0I0WZQjJEe6PxJ-VqbWLkw" position="-132.0,-96.0"/>
+      <visibility xmi:id="_0G8HFAjJEe6PxJ-VqbWLkw" label="+"/>
+      <cardinality xmi:id="_0G8HFQjJEe6PxJ-VqbWLkw" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0G8HFgjJEe6PxJ-VqbWLkw" aggregationKind="SHARED" name="conversor" navigable="true">
+      <modelElement href="Estrategia1.uml#_0G648wjJEe6PxJ-VqbWLkw"/>
+      <visualProperties xmi:id="_0I09cQjJEe6PxJ-VqbWLkw" position="-148.0,-58.00000000000006"/>
+      <visibility xmi:id="_0G8HFwjJEe6PxJ-VqbWLkw" label="+"/>
+      <cardinality xmi:id="_0G8HGAjJEe6PxJ-VqbWLkw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_4jPL4AjMEe6PxJ-VqbWLkw" sourceAnchor="200.0,0.0" targetAnchor="3.0,45.0" target="_aunFkLd3Ee2H-68HFuco9Q" source="_auJLgLd3Ee2H-68HFuco9Q">
+    <modelElement href="Estrategia1.uml#_4jN9wAjMEe6PxJ-VqbWLkw"/>
+    <visualProperties xmi:id="_4jPL4QjMEe6PxJ-VqbWLkw"/>
+    <bendpoints xmi:id="_4k8cFQjMEe6PxJ-VqbWLkw" sourceX="1" sourceY="-295" targetX="-648" targetY="-2"/>
+    <nameVisual xmi:id="_4jPL4gjMEe6PxJ-VqbWLkw" text="">
+      <visualProperties xmi:id="_4k9DIQjMEe6PxJ-VqbWLkw" position="317.5,1.9999999999999432"/>
+    </nameVisual>
+    <sourceRole xmi:id="_4jPL4wjMEe6PxJ-VqbWLkw" aggregationKind="NONE" name="conversaoMoeda">
+      <modelElement href="Estrategia1.uml#_4jN9wQjMEe6PxJ-VqbWLkw"/>
+      <visualProperties xmi:id="_4k9DIAjMEe6PxJ-VqbWLkw" position="41.0,-56.00000000000001"/>
+      <visibility xmi:id="_4jPL5AjMEe6PxJ-VqbWLkw" label="+"/>
+      <cardinality xmi:id="_4jPL5QjMEe6PxJ-VqbWLkw" label="*" max="-1"/>
+    </sourceRole>
+    <targetRole xmi:id="_4jPL5gjMEe6PxJ-VqbWLkw" aggregationKind="NONE" name="conversor1" navigable="true">
+      <modelElement href="Estrategia1.uml#_4jN9xAjMEe6PxJ-VqbWLkw"/>
+      <visualProperties xmi:id="_4k9DIgjMEe6PxJ-VqbWLkw" position="-89.0,41.0"/>
+      <visibility xmi:id="_4jPL5wjMEe6PxJ-VqbWLkw" label="+"/>
+      <cardinality xmi:id="_4jPL6AjMEe6PxJ-VqbWLkw" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_aunFkLd3Ee2H-68HFuco9Q" name="Conversor" associationsIn="_0G8HEAjJEe6PxJ-VqbWLkw _4jPL4AjMEe6PxJ-VqbWLkw" subclassedBy="_auaRQLd3Ee2H-68HFuco9Q _aug-8Ld3Ee2H-68HFuco9Q">
     <modelElement href="Estrategia1.uml#_asNR0Ld3Ee2H-68HFuco9Q"/>
     <visualProperties xmi:id="_aunFkbd3Ee2H-68HFuco9Q" position="924.0,-329.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_aunFkrd3Ee2H-68HFuco9Q" label="+"/>
+    <attributes xmi:id="_0G8HGQjJEe6PxJ-VqbWLkw" name="conversaoMoeda">
+      <modelElement href="Estrategia1.uml#_0G648AjJEe6PxJ-VqbWLkw"/>
+      <visibility xmi:id="_0G8HGgjJEe6PxJ-VqbWLkw" label="+"/>
+      <cardinality xmi:id="_0G8HGwjJEe6PxJ-VqbWLkw" label="0..1" max="1"/>
+      <type xmi:id="_0G8HHAjJEe6PxJ-VqbWLkw" name="ConversaoMoeda">
+        <modelElement href="Estrategia1.uml#_asHLMLd3Ee2H-68HFuco9Q"/>
+      </type>
+    </attributes>
     <operations xmi:id="_aunFk7d3Ee2H-68HFuco9Q" name="converter">
       <modelElement href="Estrategia1.uml#_asN44Ld3Ee2H-68HFuco9Q"/>
       <visibility xmi:id="_aunFlLd3Ee2H-68HFuco9Q" label="+"/>
@@ -118,59 +141,6 @@
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_auJLgLd3Ee2H-68HFuco9Q" name="ConversaoMoeda" associationsOut="_auIkcLd3Ee2H-68HFuco9Q">
-    <modelElement href="Estrategia1.uml#_asHLMLd3Ee2H-68HFuco9Q"/>
-    <visualProperties xmi:id="_auJLgbd3Ee2H-68HFuco9Q" position="78.0,9.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_auJLgrd3Ee2H-68HFuco9Q" label="+"/>
-    <attributes xmi:id="_auJLg7d3Ee2H-68HFuco9Q" name="conversor">
-      <modelElement href="Estrategia1.uml#_asrL4Ld3Ee2H-68HFuco9Q"/>
-      <stereotypes xmi:id="_qXYtwPhQEe2ewpYsDi4W0A" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_qXZU0PhQEe2ewpYsDi4W0A" name="LegacyStyledElement"/>
-      <stereotypes xmi:id="_qXZ74PhQEe2ewpYsDi4W0A" name="LegacyStyledElement"/>
-      <visibility xmi:id="_auJLhbd3Ee2H-68HFuco9Q" label="-"/>
-      <cardinality xmi:id="_auJLhrd3Ee2H-68HFuco9Q" label="1" max="1" min="1"/>
-      <type xmi:id="_auJLh7d3Ee2H-68HFuco9Q" name="Conversor">
-        <modelElement href="Estrategia1.uml#_asNR0Ld3Ee2H-68HFuco9Q"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_auJLiLd3Ee2H-68HFuco9Q" name="converter">
-      <modelElement href="Estrategia1.uml#_asJncLd3Ee2H-68HFuco9Q"/>
-      <visibility xmi:id="_auJLibd3Ee2H-68HFuco9Q" label="+"/>
-      <cardinality xmi:id="_auJLird3Ee2H-68HFuco9Q" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_auJLi7d3Ee2H-68HFuco9Q">
-        <modelElement href="Estrategia1.uml#_asK1kLd3Ee2H-68HFuco9Q"/>
-        <type xmi:id="_auJLjLd3Ee2H-68HFuco9Q" name="double">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_auJLjbd3Ee2H-68HFuco9Q" name="valor">
-        <modelElement href="Estrategia1.uml#_asKOgLd3Ee2H-68HFuco9Q"/>
-        <cardinality xmi:id="_auJLjrd3Ee2H-68HFuco9Q" label="1" max="1" min="1"/>
-        <type xmi:id="_auJLj7d3Ee2H-68HFuco9Q" name="double">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_auJLlrd3Ee2H-68HFuco9Q" name="ConversaoMoeda">
-      <modelElement href="Estrategia1.uml#_asmTYLd3Ee2H-68HFuco9Q"/>
-      <keywords xmi:id="_auJLl7d3Ee2H-68HFuco9Q" keyword="create"/>
-      <visibility xmi:id="_auJLmLd3Ee2H-68HFuco9Q" label="+"/>
-      <cardinality xmi:id="_auJLmbd3Ee2H-68HFuco9Q" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_auJLmrd3Ee2H-68HFuco9Q">
-        <modelElement href="Estrategia1.uml#_asmTZLd3Ee2H-68HFuco9Q"/>
-        <type xmi:id="_auJLm7d3Ee2H-68HFuco9Q" name="ConversaoMoeda">
-          <modelElement href="Estrategia1.uml#_asHLMLd3Ee2H-68HFuco9Q"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_auJLnLd3Ee2H-68HFuco9Q" name="conversor">
-        <modelElement href="Estrategia1.uml#_asmTYbd3Ee2H-68HFuco9Q"/>
-        <cardinality xmi:id="_auJLnbd3Ee2H-68HFuco9Q" label="1" max="1" min="1"/>
-        <type xmi:id="_auJLnrd3Ee2H-68HFuco9Q" name="Conversor">
-          <modelElement href="Estrategia1.uml#_asNR0Ld3Ee2H-68HFuco9Q"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aui0ILd3Ee2H-68HFuco9Q" name="ConversorDolarReal" generalizations="_aug-8Ld3Ee2H-68HFuco9Q">
     <modelElement href="Estrategia1.uml#_asPHALd3Ee2H-68HFuco9Q"/>
     <visualProperties xmi:id="_aui0Ibd3Ee2H-68HFuco9Q" position="596.0,-116.0" size="-1.0,-1.0"/>
@@ -226,6 +196,64 @@
         <cardinality xmi:id="_aujbR7d3Ee2H-68HFuco9Q" label="1" max="1" min="1"/>
         <type xmi:id="_aujbSLd3Ee2H-68HFuco9Q" name="double">
           <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_auJLgLd3Ee2H-68HFuco9Q" name="ConversaoMoeda" associationsOut="_0G8HEAjJEe6PxJ-VqbWLkw _4jPL4AjMEe6PxJ-VqbWLkw">
+    <modelElement href="Estrategia1.uml#_asHLMLd3Ee2H-68HFuco9Q"/>
+    <visualProperties xmi:id="_auJLgbd3Ee2H-68HFuco9Q" position="78.0,9.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_auJLgrd3Ee2H-68HFuco9Q" label="+"/>
+    <attributes xmi:id="_0G8uIAjJEe6PxJ-VqbWLkw" name="conversor">
+      <modelElement href="Estrategia1.uml#_0G648wjJEe6PxJ-VqbWLkw"/>
+      <visibility xmi:id="_0G8uIQjJEe6PxJ-VqbWLkw" label="+"/>
+      <cardinality xmi:id="_0G8uIgjJEe6PxJ-VqbWLkw" label="*" max="-1"/>
+      <type xmi:id="_0G8uIwjJEe6PxJ-VqbWLkw" name="Conversor">
+        <modelElement href="Estrategia1.uml#_asNR0Ld3Ee2H-68HFuco9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_4jPy8AjMEe6PxJ-VqbWLkw" name="conversor1">
+      <modelElement href="Estrategia1.uml#_4jN9xAjMEe6PxJ-VqbWLkw"/>
+      <visibility xmi:id="_4jPy8QjMEe6PxJ-VqbWLkw" label="+"/>
+      <cardinality xmi:id="_4jPy8gjMEe6PxJ-VqbWLkw" label="*" max="-1"/>
+      <type xmi:id="_4jPy8wjMEe6PxJ-VqbWLkw" name="Conversor">
+        <modelElement href="Estrategia1.uml#_asNR0Ld3Ee2H-68HFuco9Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_auJLiLd3Ee2H-68HFuco9Q" name="converter">
+      <modelElement href="Estrategia1.uml#_asJncLd3Ee2H-68HFuco9Q"/>
+      <visibility xmi:id="_auJLibd3Ee2H-68HFuco9Q" label="+"/>
+      <cardinality xmi:id="_auJLird3Ee2H-68HFuco9Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_auJLi7d3Ee2H-68HFuco9Q">
+        <modelElement href="Estrategia1.uml#_asK1kLd3Ee2H-68HFuco9Q"/>
+        <type xmi:id="_auJLjLd3Ee2H-68HFuco9Q" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_auJLjbd3Ee2H-68HFuco9Q" name="valor">
+        <modelElement href="Estrategia1.uml#_asKOgLd3Ee2H-68HFuco9Q"/>
+        <cardinality xmi:id="_auJLjrd3Ee2H-68HFuco9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_auJLj7d3Ee2H-68HFuco9Q" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_auJLlrd3Ee2H-68HFuco9Q" name="ConversaoMoeda">
+      <modelElement href="Estrategia1.uml#_asmTYLd3Ee2H-68HFuco9Q"/>
+      <keywords xmi:id="_auJLl7d3Ee2H-68HFuco9Q" keyword="create"/>
+      <visibility xmi:id="_auJLmLd3Ee2H-68HFuco9Q" label="+"/>
+      <cardinality xmi:id="_auJLmbd3Ee2H-68HFuco9Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_auJLmrd3Ee2H-68HFuco9Q">
+        <modelElement href="Estrategia1.uml#_asmTZLd3Ee2H-68HFuco9Q"/>
+        <type xmi:id="_auJLm7d3Ee2H-68HFuco9Q" name="ConversaoMoeda">
+          <modelElement href="Estrategia1.uml#_asHLMLd3Ee2H-68HFuco9Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_auJLnLd3Ee2H-68HFuco9Q" name="conversor">
+        <modelElement href="Estrategia1.uml#_asmTYbd3Ee2H-68HFuco9Q"/>
+        <cardinality xmi:id="_auJLnbd3Ee2H-68HFuco9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_auJLnrd3Ee2H-68HFuco9Q" name="Conversor">
+          <modelElement href="Estrategia1.uml#_asNR0Ld3Ee2H-68HFuco9Q"/>
         </type>
       </parameters>
     </operations>

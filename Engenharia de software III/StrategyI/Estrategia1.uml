@@ -36,10 +36,19 @@
     </elementImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_ar5IwLd3Ee2H-68HFuco9Q" name="estrategia">
       <packagedElement xmi:type="uml:Class" xmi:id="_asHLMLd3Ee2H-68HFuco9Q" name="ConversaoMoeda">
-        <ownedAttribute xmi:id="_asrL4Ld3Ee2H-68HFuco9Q" name="conversor" visibility="private" type="_asNR0Ld3Ee2H-68HFuco9Q" association="_as6ccLd3Ee2H-68HFuco9Q"/>
+        <ownedAttribute xmi:id="_0G648wjJEe6PxJ-VqbWLkw" name="conversor" type="_asNR0Ld3Ee2H-68HFuco9Q" aggregation="shared" association="_0G6R4AjJEe6PxJ-VqbWLkw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0G649AjJEe6PxJ-VqbWLkw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0G649QjJEe6PxJ-VqbWLkw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_4jN9xAjMEe6PxJ-VqbWLkw" name="conversor1" type="_asNR0Ld3Ee2H-68HFuco9Q" association="_4jN9wAjMEe6PxJ-VqbWLkw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4jN9xQjMEe6PxJ-VqbWLkw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4jN9xgjMEe6PxJ-VqbWLkw" value="*"/>
+        </ownedAttribute>
         <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aszuwLd3Ee2H-68HFuco9Q" name="ConversaoMoeda" specification="_asmTYLd3Ee2H-68HFuco9Q">
           <ownedParameter xmi:id="_aszuwbd3Ee2H-68HFuco9Q" name="conversor" type="_asNR0Ld3Ee2H-68HFuco9Q"/>
-          <ownedParameter xmi:id="_aszuwrd3Ee2H-68HFuco9Q" type="_asHLMLd3Ee2H-68HFuco9Q" direction="return"/>
+          <ownedParameter xmi:id="_aszuwrd3Ee2H-68HFuco9Q" type="_asHLMLd3Ee2H-68HFuco9Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>this.conversor = conversor;&#xD;
  </body>
@@ -49,6 +58,7 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
           </ownedParameter>
           <ownedParameter xmi:id="_as4AMrd3Ee2H-68HFuco9Q" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
           </ownedParameter>
           <language>java</language>
@@ -88,6 +98,10 @@
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_asNR0Ld3Ee2H-68HFuco9Q" name="Conversor">
+        <ownedAttribute xmi:id="_0G648AjJEe6PxJ-VqbWLkw" name="conversaoMoeda" type="_asHLMLd3Ee2H-68HFuco9Q" association="_0G6R4AjJEe6PxJ-VqbWLkw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0G648QjJEe6PxJ-VqbWLkw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0G648gjJEe6PxJ-VqbWLkw" value="1"/>
+        </ownedAttribute>
         <ownedOperation xmi:id="_asN44Ld3Ee2H-68HFuco9Q" name="converter">
           <ownedParameter xmi:id="_asOf8Ld3Ee2H-68HFuco9Q" name="valor">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
@@ -106,7 +120,9 @@
           <ownedParameter xmi:id="_as4nQbd3Ee2H-68HFuco9Q" name="taxaCambio">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_as4nQrd3Ee2H-68HFuco9Q" type="_asPHALd3Ee2H-68HFuco9Q" direction="return"/>
+          <ownedParameter xmi:id="_as4nQrd3Ee2H-68HFuco9Q" type="_asPHALd3Ee2H-68HFuco9Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>this.taxaCambio = taxaCambio;&#xD;
  </body>
@@ -116,6 +132,7 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
           </ownedParameter>
           <ownedParameter xmi:id="_as4nRbd3Ee2H-68HFuco9Q" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
           </ownedParameter>
           <language>java</language>
@@ -149,7 +166,9 @@
           <ownedParameter xmi:id="_as4nR7d3Ee2H-68HFuco9Q" name="taxaCambio">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_as4nSLd3Ee2H-68HFuco9Q" type="_asTYcLd3Ee2H-68HFuco9Q" direction="return"/>
+          <ownedParameter xmi:id="_as4nSLd3Ee2H-68HFuco9Q" type="_asTYcLd3Ee2H-68HFuco9Q" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
           <language>java</language>
           <body>this.taxaCambio = taxaCambio;&#xD;
  </body>
@@ -159,6 +178,7 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
           </ownedParameter>
           <ownedParameter xmi:id="_as4nS7d3Ee2H-68HFuco9Q" direction="return">
+            <name xsi:nil="true"/>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
           </ownedParameter>
           <language>java</language>
@@ -183,8 +203,12 @@
           </ownedParameter>
         </ownedOperation>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_as6ccLd3Ee2H-68HFuco9Q" name="" memberEnd="_as6ccbd3Ee2H-68HFuco9Q _asrL4Ld3Ee2H-68HFuco9Q">
-        <ownedEnd xmi:id="_as6ccbd3Ee2H-68HFuco9Q" name="" type="_asHLMLd3Ee2H-68HFuco9Q" association="_as6ccLd3Ee2H-68HFuco9Q"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_0G6R4AjJEe6PxJ-VqbWLkw" name="" memberEnd="_0G648AjJEe6PxJ-VqbWLkw _0G648wjJEe6PxJ-VqbWLkw"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_4jN9wAjMEe6PxJ-VqbWLkw" name="" memberEnd="_4jN9wQjMEe6PxJ-VqbWLkw _4jN9xAjMEe6PxJ-VqbWLkw">
+        <ownedEnd xmi:id="_4jN9wQjMEe6PxJ-VqbWLkw" name="conversaoMoeda" type="_asHLMLd3Ee2H-68HFuco9Q" association="_4jN9wAjMEe6PxJ-VqbWLkw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4jN9wgjMEe6PxJ-VqbWLkw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4jN9wwjMEe6PxJ-VqbWLkw" value="*"/>
+        </ownedEnd>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_amwKELd3Ee2H-68HFuco9Q">
@@ -205,8 +229,6 @@
   <UMLLabProfile:Annotations xmi:id="_asWbwbd3Ee2H-68HFuco9Q" base_Element="_asVNoLd3Ee2H-68HFuco9Q">
     <annotations xmi:id="_asXC0Ld3Ee2H-68HFuco9Q" name="Override"/>
   </UMLLabProfile:Annotations>
-  <UMLLabProfile:LegacyStyledElement xmi:id="_asry8Ld3Ee2H-68HFuco9Q" base_Element="_asrL4Ld3Ee2H-68HFuco9Q"/>
   <UMLLabProfile:LegacyStyledElement xmi:id="_assaAbd3Ee2H-68HFuco9Q" base_Element="_assaALd3Ee2H-68HFuco9Q"/>
   <UMLLabProfile:LegacyStyledElement xmi:id="_astBELd3Ee2H-68HFuco9Q" base_Element="_assaArd3Ee2H-68HFuco9Q"/>
-  <UMLLabProfile:Reference xmi:id="_as7qkLd3Ee2H-68HFuco9Q" base_Element="_as6ccLd3Ee2H-68HFuco9Q"/>
 </xmi:XMI>

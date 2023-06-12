@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_-YH_AAj1Ee6Z_M2-PMt2og" name="MVCDesingPatterns2">
+    <eAnnotations xmi:id="_-hsKsAj1Ee6Z_M2-PMt2og" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_-hsKsQj1Ee6Z_M2-PMt2og" source="codegen">
+        <details xmi:id="_-hsKsgj1Ee6Z_M2-PMt2og" key="codegenDirectory" value="/MVCDesingPatterns/src"/>
+        <details xmi:id="_-pmwkAj1Ee6Z_M2-PMt2og" key="AssociatedSourceCode" value="/MVCDesingPatterns/src/Controller.java;4193620080/1;/MVCDesingPatterns/src/ControllerInterface.java;1319883298/1;/MVCDesingPatterns/src/CreditPayment.java;3642304/1;/MVCDesingPatterns/src/DebitPayment.java;858350796/1;/MVCDesingPatterns/src/Main.java;2724733158/1;/MVCDesingPatterns/src/Observer.java;312690906/1;/MVCDesingPatterns/src/PaymentStrategy.java;646672941/1;/MVCDesingPatterns/src/Subject.java;3817773740/1;/MVCDesingPatterns/src/TaskManager.java;1190972014/1;/MVCDesingPatterns/src/TaskManagerImpl.java;1564776275/1;/MVCDesingPatterns/src/TaskManagerObserver.java;3638697259/1;/MVCDesingPatterns/src/TaskManagerView.java;2194374912/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_-m3loAj1Ee6Z_M2-PMt2og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_-m3loQj1Ee6Z_M2-PMt2og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_-m3logj1Ee6Z_M2-PMt2og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_-m3lowj1Ee6Z_M2-PMt2og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_-m3lpAj1Ee6Z_M2-PMt2og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_-m3lpQj1Ee6Z_M2-PMt2og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_-m3lpgj1Ee6Z_M2-PMt2og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_-m3lpwj1Ee6Z_M2-PMt2og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_-m3lqAj1Ee6Z_M2-PMt2og">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-mwQ4Aj1Ee6Z_M2-PMt2og" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_-mwQ4Qj1Ee6Z_M2-PMt2og" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_-nTDcAj1Ee6Z_M2-PMt2og" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-nURlgj1Ee6Z_M2-PMt2og" name="ArrayList"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_-mzUMgj1Ee6Z_M2-PMt2og" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_-mzUMwj1Ee6Z_M2-PMt2og" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_-nVfsAj1Ee6Z_M2-PMt2og" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-nWGwQj1Ee6Z_M2-PMt2og" name="ActionListener"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-mzUMAj1Ee6Z_M2-PMt2og" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_-mzUMQj1Ee6Z_M2-PMt2og" name="swing">
+        <packagedElement xmi:type="uml:Class" xmi:id="_-nYjAgj1Ee6Z_M2-PMt2og" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-nZKEQj1Ee6Z_M2-PMt2og" name="JTextArea"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-nZKEwj1Ee6Z_M2-PMt2og" name="JTextField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-nZxIAj1Ee6Z_M2-PMt2og" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-nZxIgj1Ee6Z_M2-PMt2og" name="JLabel"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-m2-kAj1Ee6Z_M2-PMt2og" name="Controller">
+      <ownedAttribute xmi:id="_-na_QAj1Ee6Z_M2-PMt2og" name="taskManager" visibility="private" type="_-m73FAj1Ee6Z_M2-PMt2og" association="_-nhF4Aj1Ee6Z_M2-PMt2og"/>
+      <ownedAttribute xmi:id="_-na_Qgj1Ee6Z_M2-PMt2og" name="view" visibility="private" type="_-m-TUgj1Ee6Z_M2-PMt2og" association="_-nhF4wj1Ee6Z_M2-PMt2og"/>
+      <interfaceRealization xmi:id="_-nTDcgj1Ee6Z_M2-PMt2og" client="_-m2-kAj1Ee6Z_M2-PMt2og" supplier="_-m4zwgj1Ee6Z_M2-PMt2og" contract="_-m4zwgj1Ee6Z_M2-PMt2og"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-neClAj1Ee6Z_M2-PMt2og" name="Controller" specification="_-nTqgAj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-neClQj1Ee6Z_M2-PMt2og" name="taskManager" type="_-m73FAj1Ee6Z_M2-PMt2og"/>
+        <ownedParameter xmi:id="_-neClgj1Ee6Z_M2-PMt2og" type="_-m2-kAj1Ee6Z_M2-PMt2og" direction="return"/>
+        <language>java</language>
+        <body>this.taskManager = taskManager;&#xD;
+     this.view = new TaskManagerView(this);&#xD;
+     view.createView();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-neClwj1Ee6Z_M2-PMt2og" name="addTask" specification="_-m4MsAj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-neCmAj1Ee6Z_M2-PMt2og" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_-neCmQj1Ee6Z_M2-PMt2og" name="paymentAmount">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>taskManager.addTask(taskName, paymentAmount);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-nepoAj1Ee6Z_M2-PMt2og" name="completeTask" specification="_-m4Mtgj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nepoQj1Ee6Z_M2-PMt2og" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>taskManager.completeTask(taskName);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-nepogj1Ee6Z_M2-PMt2og" name="getTasks" specification="_-m4Muwj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nepowj1Ee6Z_M2-PMt2og" isOrdered="true" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-neppAj1Ee6Z_M2-PMt2og" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return taskManager.getTasks();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_-m4MsAj1Ee6Z_M2-PMt2og" name="addTask" method="_-neClwj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-m4MsQj1Ee6Z_M2-PMt2og" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_-m4Msgj1Ee6Z_M2-PMt2og" name="paymentAmount">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-m4Mtgj1Ee6Z_M2-PMt2og" name="completeTask" method="_-nepoAj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-m4Mtwj1Ee6Z_M2-PMt2og" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-m4Muwj1Ee6Z_M2-PMt2og" name="getTasks" method="_-nepogj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-m4MvAj1Ee6Z_M2-PMt2og" isOrdered="true" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-m4MvQj1Ee6Z_M2-PMt2og" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-nTqgAj1Ee6Z_M2-PMt2og" name="Controller" method="_-neClAj1Ee6Z_M2-PMt2og">
+        <eAnnotations xmi:id="_-nTqggj1Ee6Z_M2-PMt2og" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_-nTqgwj1Ee6Z_M2-PMt2og" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_-nTqgQj1Ee6Z_M2-PMt2og" name="taskManager" type="_-m73FAj1Ee6Z_M2-PMt2og"/>
+        <ownedParameter xmi:id="_-nTqhAj1Ee6Z_M2-PMt2og" type="_-m2-kAj1Ee6Z_M2-PMt2og" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_-m4zwgj1Ee6Z_M2-PMt2og" name="ControllerInterface">
+      <ownedAttribute xmi:id="_-m5a1Qj1Ee6Z_M2-PMt2og" name="tasks" visibility="package" isOrdered="true" association="_-nf3wAj1Ee6Z_M2-PMt2og">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-m5a1gj1Ee6Z_M2-PMt2og" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_-m5a0Aj1Ee6Z_M2-PMt2og" name="addTask">
+        <ownedParameter xmi:id="_-m5a0Qj1Ee6Z_M2-PMt2og" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_-m5a0gj1Ee6Z_M2-PMt2og" name="paymentAmount">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-m5a0wj1Ee6Z_M2-PMt2og" name="completeTask">
+        <ownedParameter xmi:id="_-m5a1Aj1Ee6Z_M2-PMt2og" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-m5a1wj1Ee6Z_M2-PMt2og" name="CreditPayment">
+      <interfaceRealization xmi:id="_-nTqhQj1Ee6Z_M2-PMt2og" client="_-m5a1wj1Ee6Z_M2-PMt2og" supplier="_-m7QBgj1Ee6Z_M2-PMt2og" contract="_-m7QBgj1Ee6Z_M2-PMt2og"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-neppQj1Ee6Z_M2-PMt2og" name="pay" specification="_-m5a2Aj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-neppgj1Ee6Z_M2-PMt2og" name="amount">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(&quot;Paying $&quot; + amount + &quot; using credit payment.&quot;);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_-m5a2Aj1Ee6Z_M2-PMt2og" name="pay" method="_-neppQj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-m5a2Qj1Ee6Z_M2-PMt2og" name="amount">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-m6o8gj1Ee6Z_M2-PMt2og" name="DebitPayment">
+      <interfaceRealization xmi:id="_-nURkAj1Ee6Z_M2-PMt2og" client="_-m6o8gj1Ee6Z_M2-PMt2og" supplier="_-m7QBgj1Ee6Z_M2-PMt2og" contract="_-m7QBgj1Ee6Z_M2-PMt2og"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-neppwj1Ee6Z_M2-PMt2og" name="pay" specification="_-m6o8wj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nepqAj1Ee6Z_M2-PMt2og" name="amount">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(&quot;Paying $&quot; + amount + &quot; using debit payment.&quot;);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_-m6o8wj1Ee6Z_M2-PMt2og" name="pay" method="_-neppwj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-m6o9Aj1Ee6Z_M2-PMt2og" name="amount">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-m7QAAj1Ee6Z_M2-PMt2og" name="Main">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-nepqQj1Ee6Z_M2-PMt2og" name="main" specification="_-m7QAQj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nepqgj1Ee6Z_M2-PMt2og" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-nepqwj1Ee6Z_M2-PMt2og" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>TaskManager taskManager = new TaskManagerImpl();&#xD;
+     Controller controller = new Controller(taskManager);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_-m7QAQj1Ee6Z_M2-PMt2og" name="main" isStatic="true" method="_-nepqQj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-m7QAgj1Ee6Z_M2-PMt2og" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-m7QAwj1Ee6Z_M2-PMt2og" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_-m7QBAj1Ee6Z_M2-PMt2og" name="Observer">
+      <ownedOperation xmi:id="_-m7QBQj1Ee6Z_M2-PMt2og" name="update"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_-m7QBgj1Ee6Z_M2-PMt2og" name="PaymentStrategy">
+      <ownedAttribute xmi:id="_Fg9p8gj2Ee6Z_M2-PMt2og" name="taskManagerImpl" type="_-m8eJwj1Ee6Z_M2-PMt2og" aggregation="shared" association="_Fg9C4Aj2Ee6Z_M2-PMt2og">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Fg9p8wj2Ee6Z_M2-PMt2og"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fg9p9Aj2Ee6Z_M2-PMt2og" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_-m73EAj1Ee6Z_M2-PMt2og" name="pay">
+        <ownedParameter xmi:id="_-m73EQj1Ee6Z_M2-PMt2og" name="amount">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_-m73Egj1Ee6Z_M2-PMt2og" name="Subject">
+      <ownedOperation xmi:id="_-m73Ewj1Ee6Z_M2-PMt2og" name="notifyObservers"/>
+      <ownedOperation xmi:id="_-nURkQj1Ee6Z_M2-PMt2og" name="registerObserver">
+        <ownedParameter xmi:id="_-nURkgj1Ee6Z_M2-PMt2og" name="observer" type="_-m7QBAj1Ee6Z_M2-PMt2og"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-nURkwj1Ee6Z_M2-PMt2og" name="removeObserver">
+        <ownedParameter xmi:id="_-nURlAj1Ee6Z_M2-PMt2og" name="observer" type="_-m7QBAj1Ee6Z_M2-PMt2og"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_-m73FAj1Ee6Z_M2-PMt2og" name="TaskManager">
+      <generalization xmi:id="_-nURlQj1Ee6Z_M2-PMt2og" general="_-m73Egj1Ee6Z_M2-PMt2og"/>
+      <ownedAttribute xmi:id="_-m8eJQj1Ee6Z_M2-PMt2og" name="tasks" visibility="package" isOrdered="true" association="_-nf3wgj1Ee6Z_M2-PMt2og">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-m8eJgj1Ee6Z_M2-PMt2og" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_-m8eIAj1Ee6Z_M2-PMt2og" name="addTask">
+        <ownedParameter xmi:id="_-m8eIQj1Ee6Z_M2-PMt2og" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_-m8eIgj1Ee6Z_M2-PMt2og" name="paymentAmount">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-m8eIwj1Ee6Z_M2-PMt2og" name="completeTask">
+        <ownedParameter xmi:id="_-m8eJAj1Ee6Z_M2-PMt2og" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-m8eJwj1Ee6Z_M2-PMt2og" name="TaskManagerImpl">
+      <ownedAttribute xmi:id="_-na_RAj1Ee6Z_M2-PMt2og" name="instance" isStatic="true" type="_-m8eJwj1Ee6Z_M2-PMt2og" isReadOnly="true" association="_-nhF5gj1Ee6Z_M2-PMt2og"/>
+      <ownedAttribute xmi:id="_-nbmUwj1Ee6Z_M2-PMt2og" name="instance" type="_-m8eJwj1Ee6Z_M2-PMt2og" isOrdered="true" isReadOnly="true">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-ncNYQj1Ee6Z_M2-PMt2og" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_-ncNZwj1Ee6Z_M2-PMt2og" name="observers" visibility="private" type="_-m7QBAj1Ee6Z_M2-PMt2og" isOrdered="true" association="_-nhs8Qj1Ee6Z_M2-PMt2og">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-ncNaAj1Ee6Z_M2-PMt2og" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Fg9C4Qj2Ee6Z_M2-PMt2og" name="paymentStrategy" type="_-m7QBgj1Ee6Z_M2-PMt2og" association="_Fg9C4Aj2Ee6Z_M2-PMt2og">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Fg9p8Aj2Ee6Z_M2-PMt2og"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fg9p8Qj2Ee6Z_M2-PMt2og" value="1"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_-nU4oQj1Ee6Z_M2-PMt2og" client="_-m8eJwj1Ee6Z_M2-PMt2og" supplier="_-m73FAj1Ee6Z_M2-PMt2og" contract="_-m73FAj1Ee6Z_M2-PMt2og"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-nepsQj1Ee6Z_M2-PMt2og" name="TaskManagerImpl" specification="_-m9FMAj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nepsgj1Ee6Z_M2-PMt2og" type="_-m8eJwj1Ee6Z_M2-PMt2og" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>instance = new ArrayList&lt;>();&#xD;
+     observers = new ArrayList&lt;>();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-nepswj1Ee6Z_M2-PMt2og" name="registerObserver" specification="_-nU4ogj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-neptAj1Ee6Z_M2-PMt2og" name="observer" type="_-m7QBAj1Ee6Z_M2-PMt2og"/>
+        <language>java</language>
+        <body>observers.add(observer);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-neptQj1Ee6Z_M2-PMt2og" name="removeObserver" specification="_-nU4pwj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-neptgj1Ee6Z_M2-PMt2og" name="observer" type="_-m7QBAj1Ee6Z_M2-PMt2og"/>
+        <language>java</language>
+        <body>observers.remove(observer);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-neptwj1Ee6Z_M2-PMt2og" name="notifyObservers" specification="_-m9FNAj1Ee6Z_M2-PMt2og">
+        <language>java</language>
+        <body>for (Observer observer : observers) {&#xD;
+         observer.update();&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-nfQsAj1Ee6Z_M2-PMt2og" name="addTask" specification="_-m9sQgj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nfQsQj1Ee6Z_M2-PMt2og" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_-nfQsgj1Ee6Z_M2-PMt2og" name="paymentAmount">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>instance.add(taskName);&#xD;
+     notifyObservers();&#xD;
+     PaymentStrategy paymentStrategy;&#xD;
+     if (paymentAmount &lt;= 100) {&#xD;
+         paymentStrategy = new DebitPayment();&#xD;
+     } else {&#xD;
+         paymentStrategy = new CreditPayment();&#xD;
+     }&#xD;
+     paymentStrategy.pay(paymentAmount);&#xD;
+     System.out.println(&quot;Task added: &quot; + taskName);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-nfQswj1Ee6Z_M2-PMt2og" name="completeTask" specification="_-m9sSAj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nfQtAj1Ee6Z_M2-PMt2og" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>instance.remove(taskName);&#xD;
+     notifyObservers();&#xD;
+     System.out.println(&quot;Task completed: &quot; + taskName);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_-m9FMAj1Ee6Z_M2-PMt2og" name="TaskManagerImpl" visibility="package" method="_-nepsQj1Ee6Z_M2-PMt2og">
+        <eAnnotations xmi:id="_-m9FMQj1Ee6Z_M2-PMt2og" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_-m9FMgj1Ee6Z_M2-PMt2og" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_-m9FMwj1Ee6Z_M2-PMt2og" type="_-m8eJwj1Ee6Z_M2-PMt2og" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-m9FNAj1Ee6Z_M2-PMt2og" name="notifyObservers" method="_-neptwj1Ee6Z_M2-PMt2og"/>
+      <ownedOperation xmi:id="_-m9sQgj1Ee6Z_M2-PMt2og" name="addTask" method="_-nfQsAj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-m9sQwj1Ee6Z_M2-PMt2og" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_-m9sRAj1Ee6Z_M2-PMt2og" name="paymentAmount">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-m9sSAj1Ee6Z_M2-PMt2og" name="completeTask" method="_-nfQswj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-m9sSQj1Ee6Z_M2-PMt2og" name="taskName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-nU4ogj1Ee6Z_M2-PMt2og" name="registerObserver" method="_-nepswj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nU4owj1Ee6Z_M2-PMt2og" name="observer" type="_-m7QBAj1Ee6Z_M2-PMt2og"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-nU4pwj1Ee6Z_M2-PMt2og" name="removeObserver" method="_-neptQj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nU4qAj1Ee6Z_M2-PMt2og" name="observer" type="_-m7QBAj1Ee6Z_M2-PMt2og"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-m-TUgj1Ee6Z_M2-PMt2og" name="TaskManagerView">
+      <ownedAttribute xmi:id="_-nc0cAj1Ee6Z_M2-PMt2og" name="frame" visibility="private" type="_-nYjAgj1Ee6Z_M2-PMt2og" association="_-nhs9Aj1Ee6Z_M2-PMt2og"/>
+      <ownedAttribute xmi:id="_-nc0cgj1Ee6Z_M2-PMt2og" name="taskTextArea" visibility="private" type="_-nZKEQj1Ee6Z_M2-PMt2og" association="_-niUAQj1Ee6Z_M2-PMt2og"/>
+      <ownedAttribute xmi:id="_-nc0dAj1Ee6Z_M2-PMt2og" name="taskNameField" visibility="private" type="_-nZKEwj1Ee6Z_M2-PMt2og" association="_-niUBAj1Ee6Z_M2-PMt2og"/>
+      <ownedAttribute xmi:id="_-nc0dgj1Ee6Z_M2-PMt2og" name="paymentField" visibility="private" type="_-nZKEwj1Ee6Z_M2-PMt2og" association="_-niUBwj1Ee6Z_M2-PMt2og"/>
+      <ownedAttribute xmi:id="_-ndbgQj1Ee6Z_M2-PMt2og" name="addButton" visibility="private" type="_-nZxIAj1Ee6Z_M2-PMt2og" association="_-niUCgj1Ee6Z_M2-PMt2og"/>
+      <ownedAttribute xmi:id="_-ndbgwj1Ee6Z_M2-PMt2og" name="completeButton" visibility="private" type="_-nZxIAj1Ee6Z_M2-PMt2og" association="_-ni7EQj1Ee6Z_M2-PMt2og"/>
+      <ownedAttribute xmi:id="_-neCkAj1Ee6Z_M2-PMt2og" name="statusLabel" visibility="private" type="_-nZxIgj1Ee6Z_M2-PMt2og" association="_-ni7FAj1Ee6Z_M2-PMt2og"/>
+      <ownedAttribute xmi:id="_-neCkgj1Ee6Z_M2-PMt2og" name="controller" visibility="private" type="_-m4zwgj1Ee6Z_M2-PMt2og" association="_-njiIAj1Ee6Z_M2-PMt2og"/>
+      <interfaceRealization xmi:id="_-nYjAQj1Ee6Z_M2-PMt2og" client="_-m-TUgj1Ee6Z_M2-PMt2og" supplier="_-nWGwQj1Ee6Z_M2-PMt2og" contract="_-nWGwQj1Ee6Z_M2-PMt2og"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-nfQtQj1Ee6Z_M2-PMt2og" name="TaskManagerView" specification="_-nWGwwj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nfQtgj1Ee6Z_M2-PMt2og" name="controller" type="_-m4zwgj1Ee6Z_M2-PMt2og"/>
+        <ownedParameter xmi:id="_-nfQtwj1Ee6Z_M2-PMt2og" type="_-m-TUgj1Ee6Z_M2-PMt2og" direction="return"/>
+        <language>java</language>
+        <body>this.controller = controller;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-nfQuAj1Ee6Z_M2-PMt2og" name="createView" specification="_-m-6YAj1Ee6Z_M2-PMt2og">
+        <language>java</language>
+        <body>frame = new JFrame(&quot;Task Manager&quot;);&#xD;
+     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+&#xD;
+     JPanel panel = new JPanel();&#xD;
+     panel.setLayout(new BorderLayout());&#xD;
+&#xD;
+     taskTextArea = new JTextArea(10, 20);&#xD;
+     taskTextArea.setEditable(false);&#xD;
+     JScrollPane scrollPane = new JScrollPane(taskTextArea);&#xD;
+     panel.add(scrollPane, BorderLayout.CENTER);&#xD;
+&#xD;
+     JPanel inputPanel = new JPanel();&#xD;
+     inputPanel.setLayout(new FlowLayout());&#xD;
+&#xD;
+     taskNameField = new JTextField(10);&#xD;
+     inputPanel.add(taskNameField);&#xD;
+&#xD;
+     paymentField = new JTextField(10);&#xD;
+     inputPanel.add(paymentField);&#xD;
+&#xD;
+     addButton = new JButton(&quot;Add Task&quot;);&#xD;
+     addButton.addActionListener(this);&#xD;
+     inputPanel.add(addButton);&#xD;
+&#xD;
+     completeButton = new JButton(&quot;Complete Task&quot;);&#xD;
+     completeButton.addActionListener(this);&#xD;
+     inputPanel.add(completeButton);&#xD;
+&#xD;
+     statusLabel = new JLabel();&#xD;
+     inputPanel.add(statusLabel);&#xD;
+&#xD;
+     panel.add(inputPanel, BorderLayout.SOUTH);&#xD;
+&#xD;
+     frame.getContentPane().add(panel);&#xD;
+     frame.pack();&#xD;
+     frame.setVisible(true);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-nfQuQj1Ee6Z_M2-PMt2og" name="updateTasks" specification="_-naYMQj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nfQugj1Ee6Z_M2-PMt2og" name="tasks" type="_-nTDcAj1Ee6Z_M2-PMt2og"/>
+        <language>java</language>
+        <body>StringBuilder sb = new StringBuilder();&#xD;
+     for (String task : tasks) {&#xD;
+         sb.append(task).append(&quot;\n&quot;);&#xD;
+     }&#xD;
+     taskTextArea.setText(sb.toString());&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-nfQuwj1Ee6Z_M2-PMt2og" name="updateStatus" specification="_-m-6YQj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nfQvAj1Ee6Z_M2-PMt2og" name="status">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>statusLabel.setText(status);&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-nfQvQj1Ee6Z_M2-PMt2og" name="actionPerformed" specification="_-naYNAj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-nfQvgj1Ee6Z_M2-PMt2og" name="event" type="_-nVfsAj1Ee6Z_M2-PMt2og"/>
+        <language>java</language>
+        <body>if (event.getSource() == addButton) {&#xD;
+         String taskName = taskNameField.getText();&#xD;
+         String paymentAmountText = paymentField.getText();&#xD;
+         if (!taskName.isEmpty() &amp;&amp; !paymentAmountText.isEmpty()) {&#xD;
+             double paymentAmount = Double.parseDouble(paymentAmountText);&#xD;
+             controller.addTask(taskName, paymentAmount);&#xD;
+             taskNameField.setText(&quot;&quot;);&#xD;
+             paymentField.setText(&quot;&quot;);&#xD;
+         }&#xD;
+     } else if (event.getSource() == completeButton) {&#xD;
+         String taskName = taskNameField.getText();&#xD;
+         if (!taskName.isEmpty()) {&#xD;
+             controller.completeTask(taskName);&#xD;
+             taskNameField.setText(&quot;&quot;);&#xD;
+         }&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_-m-6YAj1Ee6Z_M2-PMt2og" name="createView" method="_-nfQuAj1Ee6Z_M2-PMt2og"/>
+      <ownedOperation xmi:id="_-m-6YQj1Ee6Z_M2-PMt2og" name="updateStatus" method="_-nfQuwj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-m-6Ygj1Ee6Z_M2-PMt2og" name="status">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-nWGwwj1Ee6Z_M2-PMt2og" name="TaskManagerView" method="_-nfQtQj1Ee6Z_M2-PMt2og">
+        <eAnnotations xmi:id="_-nWGxQj1Ee6Z_M2-PMt2og" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_-nWGxgj1Ee6Z_M2-PMt2og" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_-nWGxAj1Ee6Z_M2-PMt2og" name="controller" type="_-m4zwgj1Ee6Z_M2-PMt2og"/>
+        <ownedParameter xmi:id="_-nWGxwj1Ee6Z_M2-PMt2og" type="_-m-TUgj1Ee6Z_M2-PMt2og" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-naYMQj1Ee6Z_M2-PMt2og" name="updateTasks" method="_-nfQuQj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-naYMgj1Ee6Z_M2-PMt2og" name="tasks" type="_-nTDcAj1Ee6Z_M2-PMt2og"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-naYNAj1Ee6Z_M2-PMt2og" name="actionPerformed" method="_-nfQvQj1Ee6Z_M2-PMt2og">
+        <ownedParameter xmi:id="_-naYNQj1Ee6Z_M2-PMt2og" name="event" type="_-nVfsAj1Ee6Z_M2-PMt2og"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-nf3wAj1Ee6Z_M2-PMt2og" name="" memberEnd="_-m5a1Qj1Ee6Z_M2-PMt2og _-nf3wQj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-nf3wQj1Ee6Z_M2-PMt2og" name="" type="_-m4zwgj1Ee6Z_M2-PMt2og" association="_-nf3wAj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-nf3wgj1Ee6Z_M2-PMt2og" name="" memberEnd="_-m8eJQj1Ee6Z_M2-PMt2og _-nf3wwj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-nf3wwj1Ee6Z_M2-PMt2og" name="" type="_-m73FAj1Ee6Z_M2-PMt2og" association="_-nf3wgj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-nhF4Aj1Ee6Z_M2-PMt2og" name="" memberEnd="_-nhF4Qj1Ee6Z_M2-PMt2og _-na_QAj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-nhF4Qj1Ee6Z_M2-PMt2og" name="" type="_-m2-kAj1Ee6Z_M2-PMt2og" association="_-nhF4Aj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-nhF4wj1Ee6Z_M2-PMt2og" name="" memberEnd="_-nhF5Aj1Ee6Z_M2-PMt2og _-na_Qgj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-nhF5Aj1Ee6Z_M2-PMt2og" name="" type="_-m2-kAj1Ee6Z_M2-PMt2og" association="_-nhF4wj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-nhF5gj1Ee6Z_M2-PMt2og" name="" memberEnd="_-nhF5wj1Ee6Z_M2-PMt2og _-na_RAj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-nhF5wj1Ee6Z_M2-PMt2og" name="" type="_-m8eJwj1Ee6Z_M2-PMt2og" association="_-nhF5gj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-nhs8Qj1Ee6Z_M2-PMt2og" name="" memberEnd="_-nhs8gj1Ee6Z_M2-PMt2og _-ncNZwj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-nhs8gj1Ee6Z_M2-PMt2og" name="" type="_-m8eJwj1Ee6Z_M2-PMt2og" association="_-nhs8Qj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-nhs9Aj1Ee6Z_M2-PMt2og" name="" memberEnd="_-nhs9Qj1Ee6Z_M2-PMt2og _-nc0cAj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-nhs9Qj1Ee6Z_M2-PMt2og" name="" type="_-m-TUgj1Ee6Z_M2-PMt2og" association="_-nhs9Aj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-niUAQj1Ee6Z_M2-PMt2og" name="" memberEnd="_-niUAgj1Ee6Z_M2-PMt2og _-nc0cgj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-niUAgj1Ee6Z_M2-PMt2og" name="" type="_-m-TUgj1Ee6Z_M2-PMt2og" association="_-niUAQj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-niUBAj1Ee6Z_M2-PMt2og" name="" memberEnd="_-niUBQj1Ee6Z_M2-PMt2og _-nc0dAj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-niUBQj1Ee6Z_M2-PMt2og" name="" type="_-m-TUgj1Ee6Z_M2-PMt2og" association="_-niUBAj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-niUBwj1Ee6Z_M2-PMt2og" name="" memberEnd="_-niUCAj1Ee6Z_M2-PMt2og _-nc0dgj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-niUCAj1Ee6Z_M2-PMt2og" name="" type="_-m-TUgj1Ee6Z_M2-PMt2og" association="_-niUBwj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-niUCgj1Ee6Z_M2-PMt2og" name="" memberEnd="_-niUCwj1Ee6Z_M2-PMt2og _-ndbgQj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-niUCwj1Ee6Z_M2-PMt2og" name="" type="_-m-TUgj1Ee6Z_M2-PMt2og" association="_-niUCgj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-ni7EQj1Ee6Z_M2-PMt2og" name="" memberEnd="_-ni7Egj1Ee6Z_M2-PMt2og _-ndbgwj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-ni7Egj1Ee6Z_M2-PMt2og" name="" type="_-m-TUgj1Ee6Z_M2-PMt2og" association="_-ni7EQj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-ni7FAj1Ee6Z_M2-PMt2og" name="" memberEnd="_-ni7FQj1Ee6Z_M2-PMt2og _-neCkAj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-ni7FQj1Ee6Z_M2-PMt2og" name="" type="_-m-TUgj1Ee6Z_M2-PMt2og" association="_-ni7FAj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-njiIAj1Ee6Z_M2-PMt2og" name="" memberEnd="_-njiIQj1Ee6Z_M2-PMt2og _-neCkgj1Ee6Z_M2-PMt2og">
+      <ownedEnd xmi:id="_-njiIQj1Ee6Z_M2-PMt2og" name="" type="_-m-TUgj1Ee6Z_M2-PMt2og" association="_-njiIAj1Ee6Z_M2-PMt2og"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Fg9C4Aj2Ee6Z_M2-PMt2og" name="" memberEnd="_Fg9C4Qj2Ee6Z_M2-PMt2og _Fg9p8gj2Ee6Z_M2-PMt2og"/>
+    <profileApplication xmi:id="_-hsKswj1Ee6Z_M2-PMt2og">
+      <eAnnotations xmi:id="_-hsKtAj1Ee6Z_M2-PMt2og" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_-hsKtQj1Ee6Z_M2-PMt2og" base_Package="_-YH_AAj1Ee6Z_M2-PMt2og">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-m4Mswj1Ee6Z_M2-PMt2og" base_Element="_-m4MsAj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Annotations xmi:id="_-m4MtAj1Ee6Z_M2-PMt2og" base_Element="_-m4MsAj1Ee6Z_M2-PMt2og">
+    <annotations xmi:id="_-m4MtQj1Ee6Z_M2-PMt2og" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-m4MuAj1Ee6Z_M2-PMt2og" base_Element="_-m4Mtgj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Annotations xmi:id="_-m4MuQj1Ee6Z_M2-PMt2og" base_Element="_-m4Mtgj1Ee6Z_M2-PMt2og">
+    <annotations xmi:id="_-m4Mugj1Ee6Z_M2-PMt2og" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-m4Mvgj1Ee6Z_M2-PMt2og" base_Element="_-m4Muwj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Annotations xmi:id="_-m4zwAj1Ee6Z_M2-PMt2og" base_Element="_-m4Muwj1Ee6Z_M2-PMt2og">
+    <annotations xmi:id="_-m4zwQj1Ee6Z_M2-PMt2og" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-m5a2gj1Ee6Z_M2-PMt2og" base_Element="_-m5a2Aj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Annotations xmi:id="_-m6o8Aj1Ee6Z_M2-PMt2og" base_Element="_-m5a2Aj1Ee6Z_M2-PMt2og">
+    <annotations xmi:id="_-m6o8Qj1Ee6Z_M2-PMt2og" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-m6o9Qj1Ee6Z_M2-PMt2og" base_Element="_-m6o8wj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Annotations xmi:id="_-m6o9gj1Ee6Z_M2-PMt2og" base_Element="_-m6o8wj1Ee6Z_M2-PMt2og">
+    <annotations xmi:id="_-m6o9wj1Ee6Z_M2-PMt2og" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-m9FNQj1Ee6Z_M2-PMt2og" base_Element="_-m9FNAj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Annotations xmi:id="_-m9sQAj1Ee6Z_M2-PMt2og" base_Element="_-m9FNAj1Ee6Z_M2-PMt2og">
+    <annotations xmi:id="_-m9sQQj1Ee6Z_M2-PMt2og" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-m9sRQj1Ee6Z_M2-PMt2og" base_Element="_-m9sQgj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Annotations xmi:id="_-m9sRgj1Ee6Z_M2-PMt2og" base_Element="_-m9sQgj1Ee6Z_M2-PMt2og">
+    <annotations xmi:id="_-m9sRwj1Ee6Z_M2-PMt2og" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-m9sSgj1Ee6Z_M2-PMt2og" base_Element="_-m9sSAj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Annotations xmi:id="_-m9sSwj1Ee6Z_M2-PMt2og" base_Element="_-m9sSAj1Ee6Z_M2-PMt2og">
+    <annotations xmi:id="_-m-TUAj1Ee6Z_M2-PMt2og" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_-nTDcQj1Ee6Z_M2-PMt2og" base_Element="_-nTDcAj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-nU4oAj1Ee6Z_M2-PMt2og" base_Element="_-nURlgj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-nU4pAj1Ee6Z_M2-PMt2og" base_Element="_-nU4ogj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Annotations xmi:id="_-nU4pQj1Ee6Z_M2-PMt2og" base_Element="_-nU4ogj1Ee6Z_M2-PMt2og">
+    <annotations xmi:id="_-nU4pgj1Ee6Z_M2-PMt2og" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-nU4qQj1Ee6Z_M2-PMt2og" base_Element="_-nU4pwj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Annotations xmi:id="_-nU4qgj1Ee6Z_M2-PMt2og" base_Element="_-nU4pwj1Ee6Z_M2-PMt2og">
+    <annotations xmi:id="_-nU4qwj1Ee6Z_M2-PMt2og" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_-nWGwAj1Ee6Z_M2-PMt2og" base_Element="_-nVfsAj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-nWGwgj1Ee6Z_M2-PMt2og" base_Element="_-nWGwQj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-nZKEAj1Ee6Z_M2-PMt2og" base_Element="_-nYjAgj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-nZKEgj1Ee6Z_M2-PMt2og" base_Element="_-nZKEQj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-nZKFAj1Ee6Z_M2-PMt2og" base_Element="_-nZKEwj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-nZxIQj1Ee6Z_M2-PMt2og" base_Element="_-nZxIAj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-naYMAj1Ee6Z_M2-PMt2og" base_Element="_-nZxIgj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Generics xmi:id="_-naYMwj1Ee6Z_M2-PMt2og" genericsValue="String" base_Element="_-naYMgj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-na_QQj1Ee6Z_M2-PMt2og" base_Element="_-na_QAj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-na_Qwj1Ee6Z_M2-PMt2og" base_Element="_-na_Qgj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-nbmUAj1Ee6Z_M2-PMt2og" base_Element="_-na_RAj1Ee6Z_M2-PMt2og">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_-nbmUQj1Ee6Z_M2-PMt2og" name="getInstance" isStatic="true" method="_-neprAj1Ee6Z_M2-PMt2og">
+      <ownedParameter xmi:id="_-nbmUgj1Ee6Z_M2-PMt2og" type="_-m8eJwj1Ee6Z_M2-PMt2og" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-ncNYAj1Ee6Z_M2-PMt2og" base_Element="_-nbmUwj1Ee6Z_M2-PMt2og">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_-ncNYgj1Ee6Z_M2-PMt2og" name="getTasks" method="_-neprgj1Ee6Z_M2-PMt2og">
+      <ownedParameter xmi:id="_-ncNYwj1Ee6Z_M2-PMt2og" isOrdered="true" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-ncNZAj1Ee6Z_M2-PMt2og" value="*"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_-ncNZQj1Ee6Z_M2-PMt2og" base_Element="_-ncNYgj1Ee6Z_M2-PMt2og">
+    <annotations xmi:id="_-ncNZgj1Ee6Z_M2-PMt2og" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-ncNaQj1Ee6Z_M2-PMt2og" base_Element="_-ncNZwj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-nc0cQj1Ee6Z_M2-PMt2og" base_Element="_-nc0cAj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-nc0cwj1Ee6Z_M2-PMt2og" base_Element="_-nc0cgj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-nc0dQj1Ee6Z_M2-PMt2og" base_Element="_-nc0dAj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-ndbgAj1Ee6Z_M2-PMt2og" base_Element="_-nc0dgj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-ndbggj1Ee6Z_M2-PMt2og" base_Element="_-ndbgQj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-ndbhAj1Ee6Z_M2-PMt2og" base_Element="_-ndbgwj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-neCkQj1Ee6Z_M2-PMt2og" base_Element="_-neCkAj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-neCkwj1Ee6Z_M2-PMt2og" base_Element="_-neCkgj1Ee6Z_M2-PMt2og"/>
+  <uml:OpaqueBehavior xmi:id="_-neprAj1Ee6Z_M2-PMt2og" name="getInstance" specification="_-nbmUQj1Ee6Z_M2-PMt2og">
+    <ownedParameter xmi:id="_-neprQj1Ee6Z_M2-PMt2og" type="_-m8eJwj1Ee6Z_M2-PMt2og" direction="return"/>
+    <language>java</language>
+    <body>if (instance == null) {&#xD;
+         instance = new TaskManagerImpl();&#xD;
+     }&#xD;
+     return instance;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_-neprgj1Ee6Z_M2-PMt2og" name="getTasks" specification="_-ncNYgj1Ee6Z_M2-PMt2og">
+    <ownedParameter xmi:id="_-neprwj1Ee6Z_M2-PMt2og" isOrdered="true" direction="return">
+      <name xsi:nil="true"/>
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-nepsAj1Ee6Z_M2-PMt2og" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return instance;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_-nhF4gj1Ee6Z_M2-PMt2og" base_Element="_-nhF4Aj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-nhF5Qj1Ee6Z_M2-PMt2og" base_Element="_-nhF4wj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-nhs8Aj1Ee6Z_M2-PMt2og" base_Element="_-nhF5gj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-nhs8wj1Ee6Z_M2-PMt2og" base_Element="_-nhs8Qj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-niUAAj1Ee6Z_M2-PMt2og" base_Element="_-nhs9Aj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-niUAwj1Ee6Z_M2-PMt2og" base_Element="_-niUAQj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-niUBgj1Ee6Z_M2-PMt2og" base_Element="_-niUBAj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-niUCQj1Ee6Z_M2-PMt2og" base_Element="_-niUBwj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-ni7EAj1Ee6Z_M2-PMt2og" base_Element="_-niUCgj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-ni7Ewj1Ee6Z_M2-PMt2og" base_Element="_-ni7EQj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-ni7Fgj1Ee6Z_M2-PMt2og" base_Element="_-ni7FAj1Ee6Z_M2-PMt2og"/>
+  <UMLLabProfile:Reference xmi:id="_-njiIgj1Ee6Z_M2-PMt2og" base_Element="_-njiIAj1Ee6Z_M2-PMt2og"/>
+</xmi:XMI>

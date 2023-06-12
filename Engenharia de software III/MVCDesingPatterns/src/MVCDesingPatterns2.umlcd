@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_-b9WIAj1Ee6Z_M2-PMt2og">
+  <modelElement href="MVCDesingPatterns2.uml#_-YH_AAj1Ee6Z_M2-PMt2og"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-rlGgAj1Ee6Z_M2-PMt2og" source="_-rm7wgj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-nhs9Aj1Ee6Z_M2-PMt2og"/>
+    <stereotypes xmi:id="_-rlGgQj1Ee6Z_M2-PMt2og" name="Reference">
+      <modelElement href="MVCDesingPatterns2.uml#_-niUAAj1Ee6Z_M2-PMt2og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-rlGggj1Ee6Z_M2-PMt2og" text=""/>
+    <sourceRole xmi:id="_-rlGgwj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-nhs9Qj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rlGhAj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rlGhQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-rlGhgj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="frame" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-nc0cAj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rlGhwj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rlGiAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-rltkAj1Ee6Z_M2-PMt2og" source="_-rm7wgj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-niUAQj1Ee6Z_M2-PMt2og"/>
+    <stereotypes xmi:id="_-rltkQj1Ee6Z_M2-PMt2og" name="Reference">
+      <modelElement href="MVCDesingPatterns2.uml#_-niUAwj1Ee6Z_M2-PMt2og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-rltkgj1Ee6Z_M2-PMt2og" text=""/>
+    <sourceRole xmi:id="_-rltkwj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-niUAgj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rltlAj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rltlQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-rltlgj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="taskTextArea" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-nc0cgj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rltlwj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rltmAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-rltmQj1Ee6Z_M2-PMt2og" source="_-rm7wgj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-niUBAj1Ee6Z_M2-PMt2og"/>
+    <stereotypes xmi:id="_-rltmgj1Ee6Z_M2-PMt2og" name="Reference">
+      <modelElement href="MVCDesingPatterns2.uml#_-niUBgj1Ee6Z_M2-PMt2og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-rltmwj1Ee6Z_M2-PMt2og" text=""/>
+    <sourceRole xmi:id="_-rltnAj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-niUBQj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rltnQj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rltngj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-rltnwj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="taskNameField" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-nc0dAj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rltoAj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rltoQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-rmUoAj1Ee6Z_M2-PMt2og" source="_-rm7wgj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-niUBwj1Ee6Z_M2-PMt2og"/>
+    <stereotypes xmi:id="_-rmUoQj1Ee6Z_M2-PMt2og" name="Reference">
+      <modelElement href="MVCDesingPatterns2.uml#_-niUCQj1Ee6Z_M2-PMt2og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-rmUogj1Ee6Z_M2-PMt2og" text=""/>
+    <sourceRole xmi:id="_-rmUowj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-niUCAj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rmUpAj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rmUpQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-rmUpgj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="paymentField" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-nc0dgj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rmUpwj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rmUqAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-rmUqQj1Ee6Z_M2-PMt2og" source="_-rm7wgj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-niUCgj1Ee6Z_M2-PMt2og"/>
+    <stereotypes xmi:id="_-rmUqgj1Ee6Z_M2-PMt2og" name="Reference">
+      <modelElement href="MVCDesingPatterns2.uml#_-ni7EAj1Ee6Z_M2-PMt2og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-rmUqwj1Ee6Z_M2-PMt2og" text=""/>
+    <sourceRole xmi:id="_-rmUrAj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-niUCwj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rmUrQj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rmUrgj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-rmUrwj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="addButton" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-ndbgQj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rmUsAj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rmUsQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-rmUsgj1Ee6Z_M2-PMt2og" source="_-rm7wgj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-ni7EQj1Ee6Z_M2-PMt2og"/>
+    <stereotypes xmi:id="_-rmUswj1Ee6Z_M2-PMt2og" name="Reference">
+      <modelElement href="MVCDesingPatterns2.uml#_-ni7Ewj1Ee6Z_M2-PMt2og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-rmUtAj1Ee6Z_M2-PMt2og" text=""/>
+    <sourceRole xmi:id="_-rmUtQj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-ni7Egj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rmUtgj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rmUtwj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-rmUuAj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="completeButton" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-ndbgwj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rmUuQj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rmUugj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-rm7sAj1Ee6Z_M2-PMt2og" source="_-rm7wgj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-ni7FAj1Ee6Z_M2-PMt2og"/>
+    <stereotypes xmi:id="_-rm7sQj1Ee6Z_M2-PMt2og" name="Reference">
+      <modelElement href="MVCDesingPatterns2.uml#_-ni7Fgj1Ee6Z_M2-PMt2og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-rm7sgj1Ee6Z_M2-PMt2og" text=""/>
+    <sourceRole xmi:id="_-rm7swj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-ni7FQj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rm7tAj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rm7tQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-rm7tgj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="statusLabel" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-neCkAj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rm7twj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rm7uAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-rm7uQj1Ee6Z_M2-PMt2og" sourceAnchor="522.0,93.0" targetAnchor="0.0,69.0" target="_-rwssAj1Ee6Z_M2-PMt2og" source="_-rm7wgj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-njiIAj1Ee6Z_M2-PMt2og"/>
+    <stereotypes xmi:id="_-rm7ugj1Ee6Z_M2-PMt2og" name="Reference">
+      <modelElement href="MVCDesingPatterns2.uml#_-njiIgj1Ee6Z_M2-PMt2og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-rm7uwj1Ee6Z_M2-PMt2og" text="">
+      <visualProperties xmi:id="__acXoAj1Ee6Z_M2-PMt2og" position="-5.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_-rm7vAj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-njiIQj1Ee6Z_M2-PMt2og"/>
+      <visualProperties xmi:id="__abwlQj1Ee6Z_M2-PMt2og" position="15.0,-57.0"/>
+      <visibility xmi:id="_-rm7vQj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rm7vgj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-rm7vwj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="controller" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-neCkgj1Ee6Z_M2-PMt2og"/>
+      <visualProperties xmi:id="__acXoQj1Ee6Z_M2-PMt2og" position="-121.0,-57.0"/>
+      <visibility xmi:id="_-rm7wAj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rm7wQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-rp_AAj1Ee6Z_M2-PMt2og" sourceAnchor="0.0,34.0" targetAnchor="522.0,305.0" target="_-rm7wgj1Ee6Z_M2-PMt2og" source="_-rsbTwj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-nhF4wj1Ee6Z_M2-PMt2og"/>
+    <stereotypes xmi:id="_-rqmFAj1Ee6Z_M2-PMt2og" name="Reference">
+      <modelElement href="MVCDesingPatterns2.uml#_-nhF5Qj1Ee6Z_M2-PMt2og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-rqmEQj1Ee6Z_M2-PMt2og" text="">
+      <visualProperties xmi:id="__acXowj1Ee6Z_M2-PMt2og" position="-23.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_-rqmEgj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-nhF5Aj1Ee6Z_M2-PMt2og"/>
+      <visualProperties xmi:id="__acXogj1Ee6Z_M2-PMt2og" position="-17.0,41.0"/>
+      <visibility xmi:id="_-rr0MQj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rr0MAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-rqmEwj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="view" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-na_Qgj1Ee6Z_M2-PMt2og"/>
+      <visualProperties xmi:id="__ac-sAj1Ee6Z_M2-PMt2og" position="5.0,-57.0"/>
+      <visibility xmi:id="_-rr0Mwj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rr0Mgj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_-rqmEAj1Ee6Z_M2-PMt2og" sourceAnchor="354.0,0.0" targetAnchor="208.0,138.0" dashed="true" superClass="_-rwssAj1Ee6Z_M2-PMt2og" subClass="_-rsbTwj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-nTDcgj1Ee6Z_M2-PMt2og"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-rr0NQj1Ee6Z_M2-PMt2og" target="_-rwssAj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-nf3wAj1Ee6Z_M2-PMt2og"/>
+    <nameVisual xmi:id="_-rr0Ngj1Ee6Z_M2-PMt2og" text=""/>
+    <sourceRole xmi:id="_-rsbQAj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="tasks" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-m5a1Qj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rsbQwj1Ee6Z_M2-PMt2og" label="~"/>
+      <cardinality xmi:id="_-rsbQgj1Ee6Z_M2-PMt2og" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-rsbQQj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-nf3wQj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rsbRQj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rsbRAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-rsbRgj1Ee6Z_M2-PMt2og" sourceAnchor="450.0,38.0" targetAnchor="0.0,67.0" target="_-ru3hwj1Ee6Z_M2-PMt2og" source="_-rsbTwj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-nhF4Aj1Ee6Z_M2-PMt2og"/>
+    <stereotypes xmi:id="_-rsbRwj1Ee6Z_M2-PMt2og" name="Reference">
+      <modelElement href="MVCDesingPatterns2.uml#_-nhF4gj1Ee6Z_M2-PMt2og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-rsbSAj1Ee6Z_M2-PMt2og" text="">
+      <visualProperties xmi:id="__ac-sgj1Ee6Z_M2-PMt2og" position="-7.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_-rsbSQj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-nhF4Qj1Ee6Z_M2-PMt2og"/>
+      <visualProperties xmi:id="__ac-sQj1Ee6Z_M2-PMt2og" position="14.0,2.0"/>
+      <visibility xmi:id="_-rsbSgj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rsbSwj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-rsbTAj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="taskManager" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-na_QAj1Ee6Z_M2-PMt2og"/>
+      <visualProperties xmi:id="__adlwAj1Ee6Z_M2-PMt2og" position="-129.0,-57.0"/>
+      <visibility xmi:id="_-rsbTQj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rsbTgj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-ruQcAj1Ee6Z_M2-PMt2og" target="_-ru3hwj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-nf3wgj1Ee6Z_M2-PMt2og"/>
+    <nameVisual xmi:id="_-ru3gAj1Ee6Z_M2-PMt2og" text=""/>
+    <sourceRole xmi:id="_-ru3gQj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="tasks" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-m8eJQj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-ru3hAj1Ee6Z_M2-PMt2og" label="~"/>
+      <cardinality xmi:id="_-ru3gwj1Ee6Z_M2-PMt2og" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-ru3ggj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-nf3wwj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-ru3hgj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-ru3hQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_-rx60Aj1Ee6Z_M2-PMt2og" sourceAnchor="227.0,0.0" targetAnchor="155.0,132.0" superClass="_-ryh4Aj1Ee6Z_M2-PMt2og" subClass="_-ru3hwj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-nURlQj1Ee6Z_M2-PMt2og"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_-r2MQAj1Ee6Z_M2-PMt2og" sourceAnchor="124.0,0.0" targetAnchor="104.0,85.0" dashed="true" superClass="_-r1lMAj1Ee6Z_M2-PMt2og" subClass="_-r2MQQj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-nTqhQj1Ee6Z_M2-PMt2og"/>
+    <bendpoints xmi:id="_nd8s0gj2Ee6Z_M2-PMt2og" sourceY="-36" targetX="226" targetY="21"/>
+    <bendpoints xmi:id="_nd8s0wj2Ee6Z_M2-PMt2og" sourceX="-226" sourceY="-36" targetY="21"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_-r4BcAj1Ee6Z_M2-PMt2og" sourceAnchor="118.0,0.0" targetAnchor="104.0,85.0" dashed="true" superClass="_-r1lMAj1Ee6Z_M2-PMt2og" subClass="_-r4ogAj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-nURkAj1Ee6Z_M2-PMt2og"/>
+    <bendpoints xmi:id="_nd8s0Aj2Ee6Z_M2-PMt2og" sourceY="-21" targetX="-235" targetY="21"/>
+    <bendpoints xmi:id="_nd8s0Qj2Ee6Z_M2-PMt2og" sourceX="235" sourceY="-21" targetY="21"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-r52oAj1Ee6Z_M2-PMt2og" sourceAnchor="170.0,0.0" targetAnchor="0.0,97.0" target="_-r7Eygj1Ee6Z_M2-PMt2og" source="_-r7Eygj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-nhF5gj1Ee6Z_M2-PMt2og"/>
+    <bendpoints xmi:id="_nd8FwAj2Ee6Z_M2-PMt2og" sourceY="-117" targetX="171" targetY="-215"/>
+    <bendpoints xmi:id="_nd8FwQj2Ee6Z_M2-PMt2og" sourceX="-286" sourceY="-122" targetX="-115" targetY="-220"/>
+    <bendpoints xmi:id="_nd8Fwgj2Ee6Z_M2-PMt2og" sourceX="-284" sourceY="98" targetX="-113"/>
+    <stereotypes xmi:id="_-r6dtwj1Ee6Z_M2-PMt2og" name="Reference">
+      <modelElement href="MVCDesingPatterns2.uml#_-nhs8Aj1Ee6Z_M2-PMt2og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-r6dtAj1Ee6Z_M2-PMt2og" text="">
+      <visualProperties xmi:id="__adlwgj1Ee6Z_M2-PMt2og" position="225.0,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_-r6dtQj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-nhF5wj1Ee6Z_M2-PMt2og"/>
+      <visualProperties xmi:id="__adlwQj1Ee6Z_M2-PMt2og" position="-21.0,-60.0"/>
+      <visibility xmi:id="_-r7Exgj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r7ExQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-r6dtgj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="instance" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-na_RAj1Ee6Z_M2-PMt2og"/>
+      <visualProperties xmi:id="__adlwwj1Ee6Z_M2-PMt2og" position="-126.0,11.0"/>
+      <visibility xmi:id="_-r7EyAj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r7Exwj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-r52oQj1Ee6Z_M2-PMt2og" sourceAnchor="0.0,193.0" targetAnchor="122.0,31.0" target="_-rzI8Aj1Ee6Z_M2-PMt2og" source="_-r7Eygj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-nhs8Qj1Ee6Z_M2-PMt2og"/>
+    <stereotypes xmi:id="_-r6dswj1Ee6Z_M2-PMt2og" name="Reference">
+      <modelElement href="MVCDesingPatterns2.uml#_-nhs8wj1Ee6Z_M2-PMt2og"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-r6dsAj1Ee6Z_M2-PMt2og" text="">
+      <visualProperties xmi:id="__aeM0Aj1Ee6Z_M2-PMt2og" position="-9.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_-r6dsQj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="">
+      <modelElement href="MVCDesingPatterns2.uml#_-nhs8gj1Ee6Z_M2-PMt2og"/>
+      <visualProperties xmi:id="__adlxAj1Ee6Z_M2-PMt2og" position="-31.0,-57.0"/>
+      <visibility xmi:id="_-r7EwQj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r7EwAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-r6dsgj1Ee6Z_M2-PMt2og" aggregationKind="NONE" name="observers" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-ncNZwj1Ee6Z_M2-PMt2og"/>
+      <visualProperties xmi:id="__aeM0Qj1Ee6Z_M2-PMt2og" position="29.0,2.0"/>
+      <visibility xmi:id="_-r7Ewwj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-r7Ewgj1Ee6Z_M2-PMt2og" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_-r52ogj1Ee6Z_M2-PMt2og" sourceAnchor="214.0,0.0" targetAnchor="211.0,139.0" dashed="true" superClass="_-ru3hwj1Ee6Z_M2-PMt2og" subClass="_-r7Eygj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-nU4oQj1Ee6Z_M2-PMt2og"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fg-4EAj2Ee6Z_M2-PMt2og" sourceAnchor="209.0,58.0" targetAnchor="0.0,13.0" target="_-r7Eygj1Ee6Z_M2-PMt2og" source="_-r1lMAj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_Fg9C4Aj2Ee6Z_M2-PMt2og"/>
+    <visualProperties xmi:id="_Fg-4EQj2Ee6Z_M2-PMt2og"/>
+    <nameVisual xmi:id="_Fg-4Egj2Ee6Z_M2-PMt2og" text="">
+      <visualProperties xmi:id="_FkQ1kAj2Ee6Z_M2-PMt2og" position="-18.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Fg-4Ewj2Ee6Z_M2-PMt2og" aggregationKind="NONE" name="paymentStrategy" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_Fg9C4Qj2Ee6Z_M2-PMt2og"/>
+      <visualProperties xmi:id="_FkQOgAj2Ee6Z_M2-PMt2og" position="1.0,-96.0"/>
+      <visibility xmi:id="_Fg-4FAj2Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_Fg-4FQj2Ee6Z_M2-PMt2og" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fg-4Fgj2Ee6Z_M2-PMt2og" aggregationKind="SHARED" name="taskManagerImpl" navigable="true">
+      <modelElement href="MVCDesingPatterns2.uml#_Fg9p8gj2Ee6Z_M2-PMt2og"/>
+      <visualProperties xmi:id="_FkQ1kQj2Ee6Z_M2-PMt2og" position="-112.0,-91.0"/>
+      <visibility xmi:id="_Fg-4Fwj2Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_Fg-4GAj2Ee6Z_M2-PMt2og" label="*" max="-1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-r3aYAj1Ee6Z_M2-PMt2og" name="Main">
+    <modelElement href="MVCDesingPatterns2.uml#_-m7QAAj1Ee6Z_M2-PMt2og"/>
+    <visualProperties xmi:id="_-r3aYQj1Ee6Z_M2-PMt2og" position="770.0,958.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-r3aYgj1Ee6Z_M2-PMt2og" label="+"/>
+    <operations xmi:id="_-r3aYwj1Ee6Z_M2-PMt2og" name="main" staticOperation="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-m7QAQj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-r3aZAj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r3aZQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-r3aZgj1Ee6Z_M2-PMt2og" name="args">
+        <modelElement href="MVCDesingPatterns2.uml#_-m7QAgj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-r3aZwj1Ee6Z_M2-PMt2og" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_-r3aaAj1Ee6Z_M2-PMt2og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_-ryh4Aj1Ee6Z_M2-PMt2og" name="Subject" subclassedBy="_-rx60Aj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-m73Egj1Ee6Z_M2-PMt2og"/>
+    <visualProperties xmi:id="_-ryh4Qj1Ee6Z_M2-PMt2og" position="1433.0,24.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-ryh4gj1Ee6Z_M2-PMt2og" label="+"/>
+    <operations xmi:id="_-ryh4wj1Ee6Z_M2-PMt2og" name="notifyObservers">
+      <modelElement href="MVCDesingPatterns2.uml#_-m73Ewj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-ryh5Aj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-ryh5Qj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_-ryh5gj1Ee6Z_M2-PMt2og" name="registerObserver">
+      <modelElement href="MVCDesingPatterns2.uml#_-nURkQj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-ryh5wj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-ryh6Aj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-ryh6Qj1Ee6Z_M2-PMt2og" name="observer">
+        <modelElement href="MVCDesingPatterns2.uml#_-nURkgj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-ryh6gj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-ryh6wj1Ee6Z_M2-PMt2og" name="Observer">
+          <modelElement href="MVCDesingPatterns2.uml#_-m7QBAj1Ee6Z_M2-PMt2og"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-ryh7Aj1Ee6Z_M2-PMt2og" name="removeObserver">
+      <modelElement href="MVCDesingPatterns2.uml#_-nURkwj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-ryh7Qj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-ryh7gj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-ryh7wj1Ee6Z_M2-PMt2og" name="observer">
+        <modelElement href="MVCDesingPatterns2.uml#_-nURlAj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-ryh8Aj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-ryh8Qj1Ee6Z_M2-PMt2og" name="Observer">
+          <modelElement href="MVCDesingPatterns2.uml#_-m7QBAj1Ee6Z_M2-PMt2og"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-rsbTwj1Ee6Z_M2-PMt2og" name="Controller" associationsOut="_-rp_AAj1Ee6Z_M2-PMt2og _-rsbRgj1Ee6Z_M2-PMt2og" generalizations="_-rqmEAj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-m2-kAj1Ee6Z_M2-PMt2og"/>
+    <visualProperties xmi:id="_-rsbUAj1Ee6Z_M2-PMt2og" position="730.0,350.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-rsbUQj1Ee6Z_M2-PMt2og" label="+"/>
+    <attributes xmi:id="_-rsbUgj1Ee6Z_M2-PMt2og" name="taskManager">
+      <modelElement href="MVCDesingPatterns2.uml#_-na_QAj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rsbUwj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-na_QQj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rsbVAj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rsbVQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <type xmi:id="_-rsbVgj1Ee6Z_M2-PMt2og" name="TaskManager">
+        <modelElement href="MVCDesingPatterns2.uml#_-m73FAj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-rsbVwj1Ee6Z_M2-PMt2og" name="view">
+      <modelElement href="MVCDesingPatterns2.uml#_-na_Qgj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rsbWAj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-na_Qwj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rsbWQj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rsbWgj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <type xmi:id="_-rsbWwj1Ee6Z_M2-PMt2og" name="TaskManagerView">
+        <modelElement href="MVCDesingPatterns2.uml#_-m-TUgj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_-rsbXAj1Ee6Z_M2-PMt2og" name="addTask">
+      <modelElement href="MVCDesingPatterns2.uml#_-m4MsAj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rsbXQj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-m4Mswj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-rsbXgj1Ee6Z_M2-PMt2og" name="Annotations">
+        <modelElement href="MVCDesingPatterns2.uml#_-m4MtAj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rsbXwj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rsbYAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-rsbYQj1Ee6Z_M2-PMt2og" name="taskName">
+        <modelElement href="MVCDesingPatterns2.uml#_-m4MsQj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-rsbYgj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-rsbYwj1Ee6Z_M2-PMt2og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-rsbZAj1Ee6Z_M2-PMt2og" name="paymentAmount">
+        <modelElement href="MVCDesingPatterns2.uml#_-m4Msgj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-rsbZQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-rsbZgj1Ee6Z_M2-PMt2og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-rsbZwj1Ee6Z_M2-PMt2og" name="completeTask">
+      <modelElement href="MVCDesingPatterns2.uml#_-m4Mtgj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rsbaAj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-m4MuAj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-rsbaQj1Ee6Z_M2-PMt2og" name="Annotations">
+        <modelElement href="MVCDesingPatterns2.uml#_-m4MuQj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rsbagj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rsbawj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-rsbbAj1Ee6Z_M2-PMt2og" name="taskName">
+        <modelElement href="MVCDesingPatterns2.uml#_-m4Mtwj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-rsbbQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-rsbbgj1Ee6Z_M2-PMt2og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-rsbbwj1Ee6Z_M2-PMt2og" name="getTasks">
+      <modelElement href="MVCDesingPatterns2.uml#_-m4Muwj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rsbcAj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-m4Mvgj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-rsbcQj1Ee6Z_M2-PMt2og" name="Annotations">
+        <modelElement href="MVCDesingPatterns2.uml#_-m4zwAj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rsbcgj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rsbcwj1Ee6Z_M2-PMt2og" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-rsbdAj1Ee6Z_M2-PMt2og">
+        <modelElement href="MVCDesingPatterns2.uml#_-m4MvAj1Ee6Z_M2-PMt2og"/>
+        <type xmi:id="_-rsbdQj1Ee6Z_M2-PMt2og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_-rsbdgj1Ee6Z_M2-PMt2og" name="Controller">
+      <modelElement href="MVCDesingPatterns2.uml#_-nTqgAj1Ee6Z_M2-PMt2og"/>
+      <keywords xmi:id="_-rsbdwj1Ee6Z_M2-PMt2og" keyword="create"/>
+      <visibility xmi:id="_-rsbeAj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rsbeQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-rsbegj1Ee6Z_M2-PMt2og">
+        <modelElement href="MVCDesingPatterns2.uml#_-nTqhAj1Ee6Z_M2-PMt2og"/>
+        <type xmi:id="_-rsbewj1Ee6Z_M2-PMt2og" name="Controller">
+          <modelElement href="MVCDesingPatterns2.uml#_-m2-kAj1Ee6Z_M2-PMt2og"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-rsbfAj1Ee6Z_M2-PMt2og" name="taskManager">
+        <modelElement href="MVCDesingPatterns2.uml#_-nTqgQj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-rsbfQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-rsbfgj1Ee6Z_M2-PMt2og" name="TaskManager">
+          <modelElement href="MVCDesingPatterns2.uml#_-m73FAj1Ee6Z_M2-PMt2og"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_-r1lMAj1Ee6Z_M2-PMt2og" name="PaymentStrategy" associationsOut="_Fg-4EAj2Ee6Z_M2-PMt2og" subclassedBy="_-r2MQAj1Ee6Z_M2-PMt2og _-r4BcAj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-m7QBgj1Ee6Z_M2-PMt2og"/>
+    <visualProperties xmi:id="_-r1lMQj1Ee6Z_M2-PMt2og" position="415.0,554.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-r1lMgj1Ee6Z_M2-PMt2og" label="+"/>
+    <attributes xmi:id="_Fg-4HQj2Ee6Z_M2-PMt2og" name="taskManagerImpl">
+      <modelElement href="MVCDesingPatterns2.uml#_Fg9p8gj2Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_Fg-4Hgj2Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_Fg-4Hwj2Ee6Z_M2-PMt2og" label="*" max="-1"/>
+      <type xmi:id="_Fg-4IAj2Ee6Z_M2-PMt2og" name="TaskManagerImpl">
+        <modelElement href="MVCDesingPatterns2.uml#_-m8eJwj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_-r1lMwj1Ee6Z_M2-PMt2og" name="pay">
+      <modelElement href="MVCDesingPatterns2.uml#_-m73EAj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-r1lNAj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r1lNQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-r1lNgj1Ee6Z_M2-PMt2og" name="amount">
+        <modelElement href="MVCDesingPatterns2.uml#_-m73EQj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-r1lNwj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-r1lOAj1Ee6Z_M2-PMt2og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_-rzI8Aj1Ee6Z_M2-PMt2og" name="Observer" associationsIn="_-r52oQj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-m7QBAj1Ee6Z_M2-PMt2og"/>
+    <visualProperties xmi:id="_-rzI8Qj1Ee6Z_M2-PMt2og" position="1070.0,761.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-rzI8gj1Ee6Z_M2-PMt2og" label="+"/>
+    <operations xmi:id="_-rzI8wj1Ee6Z_M2-PMt2og" name="update">
+      <modelElement href="MVCDesingPatterns2.uml#_-m7QBQj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rzI9Aj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rzI9Qj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-rm7wgj1Ee6Z_M2-PMt2og" name="TaskManagerView" associationsIn="_-rp_AAj1Ee6Z_M2-PMt2og" associationsOut="_-rlGgAj1Ee6Z_M2-PMt2og _-rltkAj1Ee6Z_M2-PMt2og _-rltmQj1Ee6Z_M2-PMt2og _-rmUoAj1Ee6Z_M2-PMt2og _-rmUqQj1Ee6Z_M2-PMt2og _-rmUsgj1Ee6Z_M2-PMt2og _-rm7sAj1Ee6Z_M2-PMt2og _-rm7uQj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-m-TUgj1Ee6Z_M2-PMt2og"/>
+    <visualProperties xmi:id="_-rm7wwj1Ee6Z_M2-PMt2og" position="154.0,79.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-rm7xAj1Ee6Z_M2-PMt2og" label="+"/>
+    <attributes xmi:id="_-rm7xQj1Ee6Z_M2-PMt2og" name="frame">
+      <modelElement href="MVCDesingPatterns2.uml#_-nc0cAj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rm7xgj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-nc0cQj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rm7xwj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rm7yAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <type xmi:id="_-rm7yQj1Ee6Z_M2-PMt2og" name="JFrame">
+        <modelElement href="MVCDesingPatterns2.uml#_-nYjAgj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-rm7ygj1Ee6Z_M2-PMt2og" name="taskTextArea">
+      <modelElement href="MVCDesingPatterns2.uml#_-nc0cgj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rm7ywj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-nc0cwj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rm7zAj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rm7zQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <type xmi:id="_-rm7zgj1Ee6Z_M2-PMt2og" name="JTextArea">
+        <modelElement href="MVCDesingPatterns2.uml#_-nZKEQj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-rm7zwj1Ee6Z_M2-PMt2og" name="taskNameField">
+      <modelElement href="MVCDesingPatterns2.uml#_-nc0dAj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rm70Aj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-nc0dQj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rm70Qj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rm70gj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <type xmi:id="_-rm70wj1Ee6Z_M2-PMt2og" name="JTextField">
+        <modelElement href="MVCDesingPatterns2.uml#_-nZKEwj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-rm71Aj1Ee6Z_M2-PMt2og" name="paymentField">
+      <modelElement href="MVCDesingPatterns2.uml#_-nc0dgj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rm71Qj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-ndbgAj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rm71gj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rm71wj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <type xmi:id="_-rm72Aj1Ee6Z_M2-PMt2og" name="JTextField">
+        <modelElement href="MVCDesingPatterns2.uml#_-nZKEwj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-rm72Qj1Ee6Z_M2-PMt2og" name="addButton">
+      <modelElement href="MVCDesingPatterns2.uml#_-ndbgQj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rm72gj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-ndbggj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rm72wj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rm73Aj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <type xmi:id="_-rm73Qj1Ee6Z_M2-PMt2og" name="JButton">
+        <modelElement href="MVCDesingPatterns2.uml#_-nZxIAj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-rm73gj1Ee6Z_M2-PMt2og" name="completeButton">
+      <modelElement href="MVCDesingPatterns2.uml#_-ndbgwj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rm73wj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-ndbhAj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rm74Aj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rm74Qj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <type xmi:id="_-rm74gj1Ee6Z_M2-PMt2og" name="JButton">
+        <modelElement href="MVCDesingPatterns2.uml#_-nZxIAj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-rm74wj1Ee6Z_M2-PMt2og" name="statusLabel">
+      <modelElement href="MVCDesingPatterns2.uml#_-neCkAj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rm75Aj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-neCkQj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rm75Qj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rm75gj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <type xmi:id="_-rm75wj1Ee6Z_M2-PMt2og" name="JLabel">
+        <modelElement href="MVCDesingPatterns2.uml#_-nZxIgj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-rm76Aj1Ee6Z_M2-PMt2og" name="controller">
+      <modelElement href="MVCDesingPatterns2.uml#_-neCkgj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-rm76Qj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-neCkwj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-rm76gj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-rm76wj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <type xmi:id="_-rm77Aj1Ee6Z_M2-PMt2og" name="ControllerInterface">
+        <modelElement href="MVCDesingPatterns2.uml#_-m4zwgj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_-rm77Qj1Ee6Z_M2-PMt2og" name="createView">
+      <modelElement href="MVCDesingPatterns2.uml#_-m-6YAj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rm77gj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rm77wj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_-rm78Aj1Ee6Z_M2-PMt2og" name="updateStatus">
+      <modelElement href="MVCDesingPatterns2.uml#_-m-6YQj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rm78Qj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rm78gj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-rm78wj1Ee6Z_M2-PMt2og" name="status">
+        <modelElement href="MVCDesingPatterns2.uml#_-m-6Ygj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-rm79Aj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-rm79Qj1Ee6Z_M2-PMt2og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-rm79gj1Ee6Z_M2-PMt2og" name="TaskManagerView">
+      <modelElement href="MVCDesingPatterns2.uml#_-nWGwwj1Ee6Z_M2-PMt2og"/>
+      <keywords xmi:id="_-rm79wj1Ee6Z_M2-PMt2og" keyword="create"/>
+      <visibility xmi:id="_-rm7-Aj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rm7-Qj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-rm7-gj1Ee6Z_M2-PMt2og">
+        <modelElement href="MVCDesingPatterns2.uml#_-nWGxwj1Ee6Z_M2-PMt2og"/>
+        <type xmi:id="_-rm7-wj1Ee6Z_M2-PMt2og" name="TaskManagerView">
+          <modelElement href="MVCDesingPatterns2.uml#_-m-TUgj1Ee6Z_M2-PMt2og"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-rm7_Aj1Ee6Z_M2-PMt2og" name="controller">
+        <modelElement href="MVCDesingPatterns2.uml#_-nWGxAj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-rm7_Qj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-rm7_gj1Ee6Z_M2-PMt2og" name="ControllerInterface">
+          <modelElement href="MVCDesingPatterns2.uml#_-m4zwgj1Ee6Z_M2-PMt2og"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-rm7_wj1Ee6Z_M2-PMt2og" name="updateTasks">
+      <modelElement href="MVCDesingPatterns2.uml#_-naYMQj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rm8AAj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rm8AQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-rm8Agj1Ee6Z_M2-PMt2og" name="tasks">
+        <modelElement href="MVCDesingPatterns2.uml#_-naYMgj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-rm8Awj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-rm8BAj1Ee6Z_M2-PMt2og" name="List">
+          <modelElement href="MVCDesingPatterns2.uml#_-nTDcAj1Ee6Z_M2-PMt2og"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-rm8BQj1Ee6Z_M2-PMt2og" name="actionPerformed">
+      <modelElement href="MVCDesingPatterns2.uml#_-naYNAj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rm8Bgj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rm8Bwj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-rm8CAj1Ee6Z_M2-PMt2og" name="event">
+        <modelElement href="MVCDesingPatterns2.uml#_-naYNQj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-rm8CQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-rm8Cgj1Ee6Z_M2-PMt2og" name="ActionEvent">
+          <modelElement href="MVCDesingPatterns2.uml#_-nVfsAj1Ee6Z_M2-PMt2og"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_-rwssAj1Ee6Z_M2-PMt2og" name="ControllerInterface" associationsIn="_-rm7uQj1Ee6Z_M2-PMt2og _-rr0NQj1Ee6Z_M2-PMt2og" subclassedBy="_-rqmEAj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-m4zwgj1Ee6Z_M2-PMt2og"/>
+    <visualProperties xmi:id="_-rwssQj1Ee6Z_M2-PMt2og" position="876.0,103.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-rwssgj1Ee6Z_M2-PMt2og" label="+"/>
+    <attributes xmi:id="_-rwsswj1Ee6Z_M2-PMt2og" name="tasks">
+      <modelElement href="MVCDesingPatterns2.uml#_-m5a1Qj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rwstAj1Ee6Z_M2-PMt2og" label="~"/>
+      <cardinality xmi:id="_-rwstQj1Ee6Z_M2-PMt2og" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_-rwstgj1Ee6Z_M2-PMt2og" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_-rwstwj1Ee6Z_M2-PMt2og" name="addTask">
+      <modelElement href="MVCDesingPatterns2.uml#_-m5a0Aj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rwsuAj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rwsuQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-rwsugj1Ee6Z_M2-PMt2og" name="taskName">
+        <modelElement href="MVCDesingPatterns2.uml#_-m5a0Qj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-rwsuwj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-rwsvAj1Ee6Z_M2-PMt2og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-rwsvQj1Ee6Z_M2-PMt2og" name="paymentAmount">
+        <modelElement href="MVCDesingPatterns2.uml#_-m5a0gj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-rwsvgj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-rwsvwj1Ee6Z_M2-PMt2og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-rwswAj1Ee6Z_M2-PMt2og" name="completeTask">
+      <modelElement href="MVCDesingPatterns2.uml#_-m5a0wj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-rwswQj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-rwswgj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-rwswwj1Ee6Z_M2-PMt2og" name="taskName">
+        <modelElement href="MVCDesingPatterns2.uml#_-m5a1Aj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-rwsxAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-rwsxQj1Ee6Z_M2-PMt2og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_-ru3hwj1Ee6Z_M2-PMt2og" name="TaskManager" associationsIn="_-rsbRgj1Ee6Z_M2-PMt2og _-ruQcAj1Ee6Z_M2-PMt2og" generalizations="_-rx60Aj1Ee6Z_M2-PMt2og" subclassedBy="_-r52ogj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-m73FAj1Ee6Z_M2-PMt2og"/>
+    <visualProperties xmi:id="_-ru3iAj1Ee6Z_M2-PMt2og" position="1361.0,321.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-ru3iQj1Ee6Z_M2-PMt2og" label="+"/>
+    <attributes xmi:id="_-ru3igj1Ee6Z_M2-PMt2og" name="tasks">
+      <modelElement href="MVCDesingPatterns2.uml#_-m8eJQj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-ru3iwj1Ee6Z_M2-PMt2og" label="~"/>
+      <cardinality xmi:id="_-ru3jAj1Ee6Z_M2-PMt2og" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_-ru3jQj1Ee6Z_M2-PMt2og" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_-ru3jgj1Ee6Z_M2-PMt2og" name="addTask">
+      <modelElement href="MVCDesingPatterns2.uml#_-m8eIAj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-ru3jwj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-ru3kAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-ru3kQj1Ee6Z_M2-PMt2og" name="taskName">
+        <modelElement href="MVCDesingPatterns2.uml#_-m8eIQj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-ru3kgj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-ru3kwj1Ee6Z_M2-PMt2og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-ru3lAj1Ee6Z_M2-PMt2og" name="paymentAmount">
+        <modelElement href="MVCDesingPatterns2.uml#_-m8eIgj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-ru3lQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-ru3lgj1Ee6Z_M2-PMt2og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-ru3lwj1Ee6Z_M2-PMt2og" name="completeTask">
+      <modelElement href="MVCDesingPatterns2.uml#_-m8eIwj1Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_-ru3mAj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-ru3mQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-ru3mgj1Ee6Z_M2-PMt2og" name="taskName">
+        <modelElement href="MVCDesingPatterns2.uml#_-m8eJAj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-ru3mwj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-ru3nAj1Ee6Z_M2-PMt2og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-r4ogAj1Ee6Z_M2-PMt2og" name="DebitPayment" generalizations="_-r4BcAj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-m6o8gj1Ee6Z_M2-PMt2og"/>
+    <visualProperties xmi:id="_-r4ogQj1Ee6Z_M2-PMt2og" position="166.0,681.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-r4oggj1Ee6Z_M2-PMt2og" label="+"/>
+    <operations xmi:id="_-r4ogwj1Ee6Z_M2-PMt2og" name="pay">
+      <modelElement href="MVCDesingPatterns2.uml#_-m6o8wj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-r4ohAj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-m6o9Qj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-r4ohQj1Ee6Z_M2-PMt2og" name="Annotations">
+        <modelElement href="MVCDesingPatterns2.uml#_-m6o9gj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-r4ohgj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r4ohwj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-r4oiAj1Ee6Z_M2-PMt2og" name="amount">
+        <modelElement href="MVCDesingPatterns2.uml#_-m6o9Aj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-r4oiQj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-r4oigj1Ee6Z_M2-PMt2og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-r2MQQj1Ee6Z_M2-PMt2og" name="CreditPayment" generalizations="_-r2MQAj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-m5a1wj1Ee6Z_M2-PMt2og"/>
+    <visualProperties xmi:id="_-r2MQgj1Ee6Z_M2-PMt2og" position="621.0,696.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-r2MQwj1Ee6Z_M2-PMt2og" label="+"/>
+    <operations xmi:id="_-r2MRAj1Ee6Z_M2-PMt2og" name="pay">
+      <modelElement href="MVCDesingPatterns2.uml#_-m5a2Aj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-r2MRQj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-m5a2gj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-r2MRgj1Ee6Z_M2-PMt2og" name="Annotations">
+        <modelElement href="MVCDesingPatterns2.uml#_-m6o8Aj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-r2MRwj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r2MSAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-r2MSQj1Ee6Z_M2-PMt2og" name="amount">
+        <modelElement href="MVCDesingPatterns2.uml#_-m5a2Qj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-r2MSgj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-r2MSwj1Ee6Z_M2-PMt2og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-r7Eygj1Ee6Z_M2-PMt2og" name="TaskManagerImpl" associationsIn="_-r52oAj1Ee6Z_M2-PMt2og _Fg-4EAj2Ee6Z_M2-PMt2og" associationsOut="_-r52oAj1Ee6Z_M2-PMt2og _-r52oQj1Ee6Z_M2-PMt2og" generalizations="_-r52ogj1Ee6Z_M2-PMt2og">
+    <modelElement href="MVCDesingPatterns2.uml#_-m8eJwj1Ee6Z_M2-PMt2og"/>
+    <visualProperties xmi:id="_-r7Eywj1Ee6Z_M2-PMt2og" position="1358.0,599.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-r7EzAj1Ee6Z_M2-PMt2og" label="+"/>
+    <attributes xmi:id="_-r7EzQj1Ee6Z_M2-PMt2og" name="instance" staticAttribute="true">
+      <modelElement href="MVCDesingPatterns2.uml#_-na_RAj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-r7Ezgj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-nbmUAj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-r7Ezwj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r7E0Aj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <type xmi:id="_-r7E0Qj1Ee6Z_M2-PMt2og" name="TaskManagerImpl">
+        <modelElement href="MVCDesingPatterns2.uml#_-m8eJwj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-r7E0gj1Ee6Z_M2-PMt2og" name="instance">
+      <modelElement href="MVCDesingPatterns2.uml#_-nbmUwj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-r7E0wj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-ncNYAj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-r7E1Aj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r7E1Qj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <type xmi:id="_TicLMAj3Ee6Z_M2-PMt2og" name="TaskManagerImpl">
+        <modelElement href="MVCDesingPatterns2.uml#_-m8eJwj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-r7E1wj1Ee6Z_M2-PMt2og" name="observers">
+      <modelElement href="MVCDesingPatterns2.uml#_-ncNZwj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-r7E2Aj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-ncNaQj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-r7E2Qj1Ee6Z_M2-PMt2og" label="-"/>
+      <cardinality xmi:id="_-r7E2gj1Ee6Z_M2-PMt2og" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_-r7E2wj1Ee6Z_M2-PMt2og" name="Observer">
+        <modelElement href="MVCDesingPatterns2.uml#_-m7QBAj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Fg-4GQj2Ee6Z_M2-PMt2og" name="paymentStrategy">
+      <modelElement href="MVCDesingPatterns2.uml#_Fg9C4Qj2Ee6Z_M2-PMt2og"/>
+      <visibility xmi:id="_Fg-4Ggj2Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_Fg-4Gwj2Ee6Z_M2-PMt2og" label="0..1" max="1"/>
+      <type xmi:id="_Fg-4HAj2Ee6Z_M2-PMt2og" name="PaymentStrategy">
+        <modelElement href="MVCDesingPatterns2.uml#_-m7QBgj1Ee6Z_M2-PMt2og"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_-r7E3Aj1Ee6Z_M2-PMt2og" name="TaskManagerImpl">
+      <modelElement href="MVCDesingPatterns2.uml#_-m9FMAj1Ee6Z_M2-PMt2og"/>
+      <keywords xmi:id="_-r7E3Qj1Ee6Z_M2-PMt2og" keyword="create"/>
+      <visibility xmi:id="_-r7E3gj1Ee6Z_M2-PMt2og" label="~"/>
+      <cardinality xmi:id="_-r7E3wj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-r7E4Aj1Ee6Z_M2-PMt2og">
+        <modelElement href="MVCDesingPatterns2.uml#_-m9FMwj1Ee6Z_M2-PMt2og"/>
+        <type xmi:id="_-r7E4Qj1Ee6Z_M2-PMt2og" name="TaskManagerImpl">
+          <modelElement href="MVCDesingPatterns2.uml#_-m8eJwj1Ee6Z_M2-PMt2og"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_-r7E4gj1Ee6Z_M2-PMt2og" name="notifyObservers">
+      <modelElement href="MVCDesingPatterns2.uml#_-m9FNAj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-r7E4wj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-m9FNQj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-r7E5Aj1Ee6Z_M2-PMt2og" name="Annotations">
+        <modelElement href="MVCDesingPatterns2.uml#_-m9sQAj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-r7E5Qj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r7E5gj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_-r7E5wj1Ee6Z_M2-PMt2og" name="addTask">
+      <modelElement href="MVCDesingPatterns2.uml#_-m9sQgj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-r7E6Aj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-m9sRQj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-r7E6Qj1Ee6Z_M2-PMt2og" name="Annotations">
+        <modelElement href="MVCDesingPatterns2.uml#_-m9sRgj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-r7E6gj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r7E6wj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-r7E7Aj1Ee6Z_M2-PMt2og" name="taskName">
+        <modelElement href="MVCDesingPatterns2.uml#_-m9sQwj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-r7E7Qj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-r7E7gj1Ee6Z_M2-PMt2og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-r7E7wj1Ee6Z_M2-PMt2og" name="paymentAmount">
+        <modelElement href="MVCDesingPatterns2.uml#_-m9sRAj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-r7E8Aj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-r7E8Qj1Ee6Z_M2-PMt2og" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-r7E8gj1Ee6Z_M2-PMt2og" name="completeTask">
+      <modelElement href="MVCDesingPatterns2.uml#_-m9sSAj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-r7E8wj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-m9sSgj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-r7E9Aj1Ee6Z_M2-PMt2og" name="Annotations">
+        <modelElement href="MVCDesingPatterns2.uml#_-m9sSwj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-r7E9Qj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r7E9gj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-r7E9wj1Ee6Z_M2-PMt2og" name="taskName">
+        <modelElement href="MVCDesingPatterns2.uml#_-m9sSQj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-r7E-Aj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-r7E-Qj1Ee6Z_M2-PMt2og" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-r7E-gj1Ee6Z_M2-PMt2og" name="registerObserver">
+      <modelElement href="MVCDesingPatterns2.uml#_-nU4ogj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-r7E-wj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-nU4pAj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-r7E_Aj1Ee6Z_M2-PMt2og" name="Annotations">
+        <modelElement href="MVCDesingPatterns2.uml#_-nU4pQj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-r7E_Qj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r7E_gj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-r7E_wj1Ee6Z_M2-PMt2og" name="observer">
+        <modelElement href="MVCDesingPatterns2.uml#_-nU4owj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-r7FAAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-r7FAQj1Ee6Z_M2-PMt2og" name="Observer">
+          <modelElement href="MVCDesingPatterns2.uml#_-m7QBAj1Ee6Z_M2-PMt2og"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-r7FAgj1Ee6Z_M2-PMt2og" name="removeObserver">
+      <modelElement href="MVCDesingPatterns2.uml#_-nU4pwj1Ee6Z_M2-PMt2og"/>
+      <stereotypes xmi:id="_-r7FAwj1Ee6Z_M2-PMt2og" name="LegacyStyledElement">
+        <modelElement href="MVCDesingPatterns2.uml#_-nU4qQj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <stereotypes xmi:id="_-r7FBAj1Ee6Z_M2-PMt2og" name="Annotations">
+        <modelElement href="MVCDesingPatterns2.uml#_-nU4qgj1Ee6Z_M2-PMt2og"/>
+      </stereotypes>
+      <visibility xmi:id="_-r7FBQj1Ee6Z_M2-PMt2og" label="+"/>
+      <cardinality xmi:id="_-r7FBgj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-r7FBwj1Ee6Z_M2-PMt2og" name="observer">
+        <modelElement href="MVCDesingPatterns2.uml#_-nU4qAj1Ee6Z_M2-PMt2og"/>
+        <cardinality xmi:id="_-r7FCAj1Ee6Z_M2-PMt2og" label="1" max="1" min="1"/>
+        <type xmi:id="_-r7FCQj1Ee6Z_M2-PMt2og" name="Observer">
+          <modelElement href="MVCDesingPatterns2.uml#_-m7QBAj1Ee6Z_M2-PMt2og"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
